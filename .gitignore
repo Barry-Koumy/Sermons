@@ -25,6 +25,11 @@ mapping_douteux.json
 liste_fr.txt
 liste_ar.txt
 
+# Projet natif Capacitor (régénérable via `npx cap add android`) + APK
+android/
+ios/
+*.apk
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
