@@ -29,6 +29,9 @@ jobs:
           # Clé Web3Forms (formulaire « Ajouter ou participer ») —
           # à définir dans Settings → Secrets and variables → Actions.
           VITE_WEB3FORMS_KEY: ${{ secrets.VITE_WEB3FORMS_KEY }}
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true   # active GitHub Pages automatiquement si besoin
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
