@@ -1,0 +1,85 @@
+/*
+ * sermon-html.css
+ * Styles scoped pour les sermons chargés depuis des fichiers HTML distants.
+ * Toutes les règles sont préfixées par .sermon-html-content pour ne pas
+ * interférer avec le reste de l'application (Tailwind, etc.).
+ */
+
+/* ─── Base ──────────────────────────────────────────────────────── */
+.sermon-html-content {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.85;
+}
+
+.sermon-html-content p {
+  text-align: justify;
+  margin-bottom: 0.75em;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  orphans: 3;
+  widows: 3;
+}
+
+/* ─── Titres de section ─────────────────────────────────────────── */
+.sermon-html-content .titre-principal {
+  font-size: 1.05em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+  padding-bottom: 0.4em;
+  border-bottom: 1.5px solid #b8a88a;
+}
+
+/* ─── Couleurs sémantiques (versets / annotations) ──────────────── */
+.sermon-html-content .texte-rouge {
+  color: #7a1515;
+  font-style: italic;
+}
+
+.sermon-html-content .texte-vert {
+  color: #1e5c1e;
+}
+
+/* ─── Thème sombre ──────────────────────────────────────────────── */
+.sermon-html-content[data-theme="dark"] .texte-rouge {
+  color: #fca5a5;
+}
+
+.sermon-html-content[data-theme="dark"] .texte-vert {
+  color: #6ee7b7;
+}
+
+.sermon-html-content[data-theme="dark"] .titre-principal {
+  border-bottom-color: #4b5563;
+}
+
+/* ─── Thème sépia ───────────────────────────────────────────────── */
+.sermon-html-content[data-theme="sepia"] .texte-rouge {
+  color: #92400e;
+}
+
+.sermon-html-content[data-theme="sepia"] .texte-vert {
+  color: #065f46;
+}
+
+.sermon-html-content[data-theme="sepia"] .titre-principal {
+  border-bottom-color: #d97706;
+}
+
+/* ─── Séparateur de page ────────────────────────────────────────── */
+.sermon-html-content .page-break {
+  border: none;
+  border-top: 1px dashed currentColor;
+  opacity: 0.25;
+  margin: 2em 0;
+}
+
+/* ─── Liens ─────────────────────────────────────────────────────── */
+.sermon-html-content a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: 0.7;
+}

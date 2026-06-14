@@ -1,0 +1,146 @@
+/* ═══════════════════════════════════════════════════════════════
+   style.css — Mise en page type document imprimé / livre
+   Utilisé par tous les fichiers HTML générés par convert_pdf.py
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ─── Reset minimal ─────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Page (fond parchemin) ──────────────────────────────────── */
+body {
+  background-color: #e8e0d0;
+  padding: 2.5rem 1rem 4rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #1c1c1c;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Conteneur principal (feuille de livre) ─────────────────── */
+.pdf-container {
+  max-width: 740px;
+  margin: 0 auto;
+  background-color: #fffef9;
+  padding: 70px 80px;
+  border: 1px solid #cfc4ae;
+  border-radius: 2px;
+  box-shadow:
+    0 2px  6px rgba(0, 0, 0, 0.08),
+    0 8px 28px rgba(0, 0, 0, 0.13);
+}
+
+/* ─── Paragraphes courants ──────────────────────────────────── */
+p {
+  text-align: justify;
+  line-height: 1.85;
+  font-size: 1rem;         /* 16 px */
+  margin-bottom: 0.75em;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  orphans: 3;
+  widows: 3;
+}
+
+/* ─── Titres principaux (courtes lignes tout en majuscules) ──── */
+.titre-principal {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #2a2a2a;
+  margin: 2.2em 0 1em;
+  padding-bottom: 0.45em;
+  border-bottom: 1.5px solid #b8a88a;
+  line-height: 1.4;
+}
+
+/* Premier titre de la page sans marge haute excessive */
+.pdf-container > .titre-principal:first-child {
+  margin-top: 0;
+}
+
+/* ─── Gras ──────────────────────────────────────────────────── */
+strong {
+  font-weight: bold;
+  color: inherit;
+}
+
+/* ─── Textes colorés ─────────────────────────────────────────── */
+
+/* Rouge bordeaux → versets, citations scripturaires */
+.texte-rouge {
+  color: #7a1515;
+  font-style: italic;
+}
+
+/* Vert forêt → mots-clés, annotations pastorales */
+.texte-vert {
+  color: #1e5c1e;
+}
+
+/* ─── Séparateur de page ────────────────────────────────────── */
+.page-break {
+  width: 60%;
+  margin: 2.5em auto;
+  border: none;
+  border-top: 1px dashed #c0b09a;
+}
+
+/* ─── Liens (s'il y en a) ───────────────────────────────────── */
+a {
+  color: #5a3000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #7a1515;
+}
+
+/* ─── Impression (Ctrl+P) ───────────────────────────────────── */
+@media print {
+  body {
+    background: white;
+    padding: 0;
+  }
+
+  .pdf-container {
+    max-width: 100%;
+    padding: 1.5cm 2cm;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+  }
+
+  .page-break {
+    border-top: 1px dashed #999;
+    page-break-after: always;
+  }
+
+  p {
+    orphans: 4;
+    widows: 4;
+  }
+}
+
+/* ─── Responsive (mobile) ───────────────────────────────────── */
+@media (max-width: 600px) {
+  .pdf-container {
+    padding: 32px 22px;
+  }
+
+  p {
+    font-size: 0.95rem;
+    text-align: left;    /* la justification sur mobile = trop de blancs */
+  }
+
+  .titre-principal {
+    font-size: 0.97rem;
+    letter-spacing: 0.07em;
+  }
+}

@@ -1,0 +1,2354 @@
+[
+  {
+    "id": "accueil-de-la-nouvelle-annee-scolaire",
+    "titre_fr": "ACCUEIL DE LA NOUVELLE ANNÉE SCOLAIRE",
+    "titre_ar": "اسْتِقْبَالُ_الْعَامِ_الدِّرَاسِيِّ",
+    "url_fr": "sermons_html/accueil-de-la-nouvelle-annee-scolaire.fr.html",
+    "url_ar": "sermons_html/accueil-de-la-nouvelle-annee-scolaire.ar.html",
+    "publishedAt": "2025-09-18"
+  },
+  {
+    "id": "accueillir-le-mois-de-ramadan",
+    "titre_fr": "ACCUEILLIR LE MOIS DE RAMADAN",
+    "titre_ar": "اسْتِقْبَالُ رَمَضَانَ",
+    "url_fr": "sermons_html/accueillir-le-mois-de-ramadan.fr.html",
+    "url_ar": "sermons_html/accueillir-le-mois-de-ramadan.ar.html",
+    "publishedAt": "2026-02-12"
+  },
+  {
+    "id": "allah-est-doux-subtil-envers-ses-serviteurs",
+    "titre_fr": "ALLAH EST DOUX (SUBTIL) ENVERS SES SERVITEURS",
+    "titre_ar": "اللَّهُ لَطِيفٌ بِعِبَادِهِ",
+    "url_fr": "sermons_html/allah-est-doux-subtil-envers-ses-serviteurs.fr.html",
+    "url_ar": "sermons_html/allah-est-doux-subtil-envers-ses-serviteurs.ar.html",
+    "publishedAt": "2026-04-02"
+  },
+  {
+    "id": "allah-glorifie-soit-sa-majeste",
+    "titre_fr": "ALLAH, GLORIFIE SOIT SA MAJESTE",
+    "titre_ar": "الله جل جلاله",
+    "url_fr": "sermons_html/allah-glorifie-soit-sa-majeste.fr.html",
+    "url_ar": "sermons_html/allah-glorifie-soit-sa-majeste.ar.html",
+    "publishedAt": "2025-10-23"
+  },
+  {
+    "id": "alors-que-vous-etes-les-plus-eleves",
+    "titre_fr": "ALORS QUE VOUS ÊTES LES PLUS ELEVES",
+    "titre_ar": "وأنتم_الأعلون",
+    "url_fr": "sermons_html/alors-que-vous-etes-les-plus-eleves.fr.html",
+    "url_ar": "sermons_html/alors-que-vous-etes-les-plus-eleves.ar.html",
+    "publishedAt": "2023-12-14"
+  },
+  {
+    "id": "annonce-la-bonne-nouvelle-aux-humbles",
+    "titre_fr": "ANNONCE LA BONNE NOUVELLE AUX HUMBLES",
+    "titre_ar": "وَبَشِّرِ الْمُخْبِتِينَ",
+    "url_fr": "sermons_html/annonce-la-bonne-nouvelle-aux-humbles.fr.html",
+    "url_ar": "sermons_html/annonce-la-bonne-nouvelle-aux-humbles.ar.html",
+    "publishedAt": "2024-07-25"
+  },
+  {
+    "id": "arretez-les-car-ils-doivent-etre-interroges",
+    "titre_fr": "ARRETEZ-LES, CAR ILS DOIVENT ETRE INTERROGES",
+    "titre_ar": "وَقِفُوهُمْ_إِنَّهُمْ_مَسْئُولُونَ",
+    "url_fr": "sermons_html/arretez-les-car-ils-doivent-etre-interroges.fr.html",
+    "url_ar": "sermons_html/arretez-les-car-ils-doivent-etre-interroges.ar.html",
+    "publishedAt": "2024-11-07"
+  },
+  {
+    "id": "avant-de-mettre-fin-a-ta-vie",
+    "titre_fr": "AVANT DE METTRE FIN A TA VIE ! …",
+    "titre_ar": "قبل_أن_تُنهي_حياتك!_الانتحار_الداء_والدواء",
+    "url_fr": "sermons_html/avant-de-mettre-fin-a-ta-vie.fr.html",
+    "url_ar": "sermons_html/avant-de-mettre-fin-a-ta-vie.ar.html",
+    "publishedAt": "2026-05-14"
+  },
+  {
+    "id": "avoir-une-bonne-opinion-dallah-le-tres-haut",
+    "titre_fr": "AVOIR UNE BONNE OPINION D’ALLAH LE TRÈS-HAUT",
+    "titre_ar": "حسن الظن بالله تعالى",
+    "url_fr": "sermons_html/avoir-une-bonne-opinion-dallah-le-tres-haut.fr.html",
+    "url_ar": "sermons_html/avoir-une-bonne-opinion-dallah-le-tres-haut.ar.html",
+    "publishedAt": "2024-08-01"
+  },
+  {
+    "id": "celui-qui-couvre-les-fautes-de-son-frere-musulman-allah-le-couvrira",
+    "titre_fr": "CELUI_QUI_COUVRE_LES_FAUTES_DE_SON_FRÈRE_MUSULMAN,_ALLAH_LE_COUVRIRA",
+    "titre_ar": "مَنْ_سَتَرَ_مُسْلِمًا_سَتَرَهُ_اللهُ",
+    "url_fr": "sermons_html/celui-qui-couvre-les-fautes-de-son-frere-musulman-allah-le-couvrira.fr.html",
+    "url_ar": "sermons_html/celui-qui-couvre-les-fautes-de-son-frere-musulman-allah-le-couvrira.ar.html",
+    "publishedAt": "2025-10-02"
+  },
+  {
+    "id": "certes-allah-est-juge-et-juste",
+    "titre_fr": "CERTES, ALLAH EST JUGE ET JUSTE",
+    "titre_ar": "إِنَّ اللَّهَ حَكَمٌ عَدْلٌ",
+    "url_fr": "sermons_html/certes-allah-est-juge-et-juste.fr.html",
+    "url_ar": "sermons_html/certes-allah-est-juge-et-juste.ar.html",
+    "publishedAt": "2026-01-14"
+  },
+  {
+    "id": "certes-cette-communaute-qui-est-la-votre-est-une-communaute-unique",
+    "titre_fr": "CERTES,_CETTE_COMMUNAUTE_QUI_EST_LA_VOTRE_EST_UNE_COMMUNAUTE_UNIQUE",
+    "titre_ar": "إن هذه أمتكم أمة واحدة",
+    "url_fr": "sermons_html/certes-cette-communaute-qui-est-la-votre-est-une-communaute-unique.fr.html",
+    "url_ar": "sermons_html/certes-cette-communaute-qui-est-la-votre-est-une-communaute-unique.ar.html",
+    "publishedAt": "2024-02-01"
+  },
+  {
+    "id": "cha-ban-un-mois-que-les-gens-negligent",
+    "titre_fr": "CHA'BAN, UN MOIS QUE LES GENS NÉGLIGENT",
+    "titre_ar": "شعبان شهر يغفل الناس عنه",
+    "url_fr": "sermons_html/cha-ban-un-mois-que-les-gens-negligent.fr.html",
+    "url_ar": "sermons_html/cha-ban-un-mois-que-les-gens-negligent.ar.html",
+    "publishedAt": "2024-02-08"
+  },
+  {
+    "id": "chaban-le-mois-des-lecteurs-du-coran",
+    "titre_fr": "CHA‘BAN, LE MOIS DES LECTEURS DU CORAN",
+    "titre_ar": "شَعْبَانُ شَهْرُ الْقُرَّاءِ",
+    "url_fr": "sermons_html/chaban-le-mois-des-lecteurs-du-coran.fr.html",
+    "url_ar": "sermons_html/chaban-le-mois-des-lecteurs-du-coran.ar.html",
+    "publishedAt": "2026-01-22"
+  },
+  {
+    "id": "conseils-avant-la-mort",
+    "titre_fr": "CONSEILS AVANT LA MORT",
+    "titre_ar": "وصايا قبل المنايا",
+    "url_fr": "sermons_html/conseils-avant-la-mort.fr.html",
+    "url_ar": "sermons_html/conseils-avant-la-mort.ar.html",
+    "publishedAt": "2024-02-08"
+  },
+  {
+    "id": "des-annees-trompeuses",
+    "titre_fr": "DES ANNÉES TROMPEUSES",
+    "titre_ar": "سنواتٌ خَدَّاعات",
+    "url_fr": "sermons_html/des-annees-trompeuses.fr.html",
+    "url_ar": "sermons_html/des-annees-trompeuses.ar.html",
+    "publishedAt": "2026-04-09"
+  },
+  {
+    "id": "des-souffles-qui-ne-reviennent-pas",
+    "titre_fr": "DES SOUFFLES QUI NE REVIENNENT PAS",
+    "titre_ar": "أنفاسٌ لا تَعُود",
+    "url_fr": "sermons_html/des-souffles-qui-ne-reviennent-pas.fr.html",
+    "url_ar": "sermons_html/des-souffles-qui-ne-reviennent-pas.ar.html",
+    "publishedAt": "2024-07-18"
+  },
+  {
+    "id": "dieu-est-le-meilleur-gardien-et-il-est-le-plus-misericordieux-des",
+    "titre_fr": "DIEU_EST_LE_MEILLEUR_GARDIEN_ET_IL_EST_LE_PLUS_MISERICORDIEUX_DES",
+    "titre_ar": "فَاللَّهُ_خَيْرٌ_حَافِظًا_وَهُوَ_أَرْحَمُ_الرَّاحِمِينَ",
+    "url_fr": "sermons_html/dieu-est-le-meilleur-gardien-et-il-est-le-plus-misericordieux-des.fr.html",
+    "url_ar": "sermons_html/dieu-est-le-meilleur-gardien-et-il-est-le-plus-misericordieux-des.ar.html",
+    "publishedAt": "2026-03-05"
+  },
+  {
+    "id": "dis-il-est-allah-l-unique",
+    "titre_fr": "DIS IL EST ALLAH, L'UNIQUE",
+    "titre_ar": "خطبة بعنوان قل هو الله أحد",
+    "url_fr": "sermons_html/dis-il-est-allah-l-unique.fr.html",
+    "url_ar": "sermons_html/dis-il-est-allah-l-unique.ar.html",
+    "publishedAt": "2023-12-28"
+  },
+  {
+    "id": "dis-j-ai-un-gardien-attentif",
+    "titre_fr": "DIS, J'AI UN GARDIEN ATTENTIF",
+    "titre_ar": "قل (علي رقيب)",
+    "url_fr": "sermons_html/dis-j-ai-un-gardien-attentif.fr.html",
+    "url_ar": "sermons_html/dis-j-ai-un-gardien-attentif.ar.html",
+    "publishedAt": "2024-01-11"
+  },
+  {
+    "id": "droits-de-dieu-tout-puissant-dans-la-priere",
+    "titre_fr": "DROITS DE DIEU TOUT-PUISSANT DANS LA PRIERE",
+    "titre_ar": "حق الله في الصلاة",
+    "url_fr": "sermons_html/droits-de-dieu-tout-puissant-dans-la-priere.fr.html",
+    "url_ar": "sermons_html/droits-de-dieu-tout-puissant-dans-la-priere.ar.html",
+    "publishedAt": "2024-02-18"
+  },
+  {
+    "id": "droits-des-personnes-agees",
+    "titre_fr": "DROITS DES PERSONNES ÂGÉES",
+    "titre_ar": "حُقُوقُ كِبَارِ السِّنِّ",
+    "url_fr": "sermons_html/droits-des-personnes-agees.fr.html",
+    "url_ar": "sermons_html/droits-des-personnes-agees.ar.html",
+    "publishedAt": "2024-03-01"
+  },
+  {
+    "id": "encouragement-a-faciliter-et-simplifier-le-mariage",
+    "titre_fr": "ENCOURAGEMENT A FACILITER ET SIMPLIFIER LE MARIAGE",
+    "titre_ar": "الترغيب في تيسير الزواج وتسهيله",
+    "url_fr": "sermons_html/encouragement-a-faciliter-et-simplifier-le-mariage.fr.html",
+    "url_ar": "sermons_html/encouragement-a-faciliter-et-simplifier-le-mariage.ar.html",
+    "publishedAt": "2024-07-18"
+  },
+  {
+    "id": "essuyage-sur-les-chaussettes",
+    "titre_fr": "ESSUYAGE SUR LES CHAUSSETTES",
+    "titre_ar": "المسح على الجوارب",
+    "url_fr": "sermons_html/essuyage-sur-les-chaussettes.fr.html",
+    "url_ar": "sermons_html/essuyage-sur-les-chaussettes.ar.html",
+    "publishedAt": "2024-12-18"
+  },
+  {
+    "id": "et-accomplissez-pour-allah-le-hajj-et-la-umra",
+    "titre_fr": "ET ACCOMPLISSEZ POUR ALLAH LE HAJJ ET LA ‘UMRA",
+    "titre_ar": "وَأَتِمُّوا_الْحَجَّ_وَالْعُمْرَةَ_لِلَّهِ",
+    "url_fr": "sermons_html/et-accomplissez-pour-allah-le-hajj-et-la-umra.fr.html",
+    "url_ar": "sermons_html/et-accomplissez-pour-allah-le-hajj-et-la-umra.ar.html",
+    "publishedAt": "2026-05-06"
+  },
+  {
+    "id": "et-allah-sait-tandis-que-vous-ne-savez-pas",
+    "titre_fr": "ET ALLAH SAIT, TANDIS QUE VOUS NE SAVEZ PAS",
+    "titre_ar": "والله يعلم وأنتم لا تعلمون",
+    "url_fr": "sermons_html/et-allah-sait-tandis-que-vous-ne-savez-pas.fr.html",
+    "url_ar": "sermons_html/et-allah-sait-tandis-que-vous-ne-savez-pas.ar.html",
+    "publishedAt": "2024-09-05"
+  },
+  {
+    "id": "et-ils-seront-presentes-devant-ton-seigneur",
+    "titre_fr": "ET ILS SERONT PRESENTES DEVANT TON SEIGNEUR",
+    "titre_ar": "وعُرِضُوا على رَبِّكَ",
+    "url_fr": "sermons_html/et-ils-seront-presentes-devant-ton-seigneur.fr.html",
+    "url_ar": "sermons_html/et-ils-seront-presentes-devant-ton-seigneur.ar.html",
+    "publishedAt": "2026-02-05"
+  },
+  {
+    "id": "et-l-on-soufflera-dans-la-trompe",
+    "titre_fr": "ET L'ON SOUFFLERA DANS LA TROMPE",
+    "titre_ar": "ونفخ في الصور",
+    "url_fr": "sermons_html/et-l-on-soufflera-dans-la-trompe.fr.html",
+    "url_ar": "sermons_html/et-l-on-soufflera-dans-la-trompe.ar.html",
+    "publishedAt": "2024-01-24"
+  },
+  {
+    "id": "et-ne-vous-jetez-pas-par-vos-propres-mains-dans-la-perdition",
+    "titre_fr": "ET NE VOUS JETEZ PAS PAR VOS PROPRES MAINS DANS LA PERDITION",
+    "titre_ar": "وَلَا_تُلْقُوا_بِأَيْدِيكُمْ_إِلَى_التَّهْلُكَةِ",
+    "url_fr": "sermons_html/et-ne-vous-jetez-pas-par-vos-propres-mains-dans-la-perdition.fr.html",
+    "url_ar": "sermons_html/et-ne-vous-jetez-pas-par-vos-propres-mains-dans-la-perdition.ar.html",
+    "publishedAt": "2025-04-17"
+  },
+  {
+    "id": "et-nous-avons-fait-descendre-du-ciel-une-eau-pure",
+    "titre_fr": "ET NOUS AVONS FAIT DESCENDRE DU CIEL UNE EAU PURE",
+    "titre_ar": "وَأَنْزَلْنَا_مِنَ_السَّمَاءِ_مَاءً_طَهُورًا",
+    "url_fr": "sermons_html/et-nous-avons-fait-descendre-du-ciel-une-eau-pure.fr.html",
+    "url_ar": "sermons_html/et-nous-avons-fait-descendre-du-ciel-une-eau-pure.ar.html",
+    "publishedAt": "2025-11-20"
+  },
+  {
+    "id": "et-napprochez-pas-de-la-fornication",
+    "titre_fr": "ET N’APPROCHEZ PAS DE LA FORNICATION",
+    "titre_ar": "ولا تَقْرَبُوا الزِّنَا",
+    "url_fr": "sermons_html/et-napprochez-pas-de-la-fornication.fr.html",
+    "url_ar": "sermons_html/et-napprochez-pas-de-la-fornication.ar.html",
+    "publishedAt": "2025-05-01"
+  },
+  {
+    "id": "et-proclame-les-bienfaits-de-ton-seigneur",
+    "titre_fr": "ET PROCLAME LES BIENFAITS DE TON SEIGNEUR",
+    "titre_ar": "وَأَمَّا_بِنِعْمَةِ_رَبِّكَ_فَحَدِّثْ",
+    "url_fr": "sermons_html/et-proclame-les-bienfaits-de-ton-seigneur.fr.html",
+    "url_ar": "sermons_html/et-proclame-les-bienfaits-de-ton-seigneur.ar.html",
+    "publishedAt": "2024-11-07"
+  },
+  {
+    "id": "et-si-vous-lui-obeissez-vous-serez-bien-guides",
+    "titre_fr": "ET SI VOUS LUI OBEISSEZ, VOUS SEREZ BIEN GUIDES",
+    "titre_ar": "وإن تطيعوه تهتدوا",
+    "url_fr": "sermons_html/et-si-vous-lui-obeissez-vous-serez-bien-guides.fr.html",
+    "url_ar": "sermons_html/et-si-vous-lui-obeissez-vous-serez-bien-guides.ar.html",
+    "publishedAt": "2024-01-05"
+  },
+  {
+    "id": "et-tout-aboutit-en-verite-vers-ton-seigneur",
+    "titre_fr": "ET TOUT ABOUTIT, EN VÉRITÉ, VERS TON SEIGNEUR",
+    "titre_ar": "وأن إلى ربك المنتهى",
+    "url_fr": "sermons_html/et-tout-aboutit-en-verite-vers-ton-seigneur.fr.html",
+    "url_ar": "sermons_html/et-tout-aboutit-en-verite-vers-ton-seigneur.ar.html",
+    "publishedAt": "2024-02-17"
+  },
+  {
+    "id": "et-toute-innovation-est-un-egarement",
+    "titre_fr": "ET TOUTE INNOVATION EST UN EGAREMENT",
+    "titre_ar": "وَكُلَّ بِدْعَةٍ ضَلَالَةٌ",
+    "url_fr": "sermons_html/et-toute-innovation-est-un-egarement.fr.html",
+    "url_ar": "sermons_html/et-toute-innovation-est-un-egarement.ar.html",
+    "publishedAt": "2023-12-14"
+  },
+  {
+    "id": "et-ne-semez-pas-la-corruption-sur-la-terre-apres-qu-elle-ait-ete",
+    "titre_fr": "ET_NE_SEMEZ_PAS_LA_CORRUPTION_SUR_LA_TERRE_APRES_QU'ELLE_AIT_ETE",
+    "titre_ar": "ولا_تفسدوا_في_الأرض_بعد_إصلاحها",
+    "url_fr": "sermons_html/et-ne-semez-pas-la-corruption-sur-la-terre-apres-qu-elle-ait-ete.fr.html",
+    "url_ar": "sermons_html/et-ne-semez-pas-la-corruption-sur-la-terre-apres-qu-elle-ait-ete.ar.html",
+    "publishedAt": "2023-12-08"
+  },
+  {
+    "id": "exhortation-a-profiter-de-ce-qui-reste-des-dix-jours-de-dhul-hijjah",
+    "titre_fr": "EXHORTATION_A_PROFITER_DE_CE_QUI_RESTE_DES_DIX_JOURS_DE_DHUL_HIJJAH",
+    "titre_ar": "الحثُّ_على_اغتنامِ_ما_تَبَقَّى_من_عشرِ_ذي_الحجة",
+    "url_fr": "sermons_html/exhortation-a-profiter-de-ce-qui-reste-des-dix-jours-de-dhul-hijjah.fr.html",
+    "url_ar": "sermons_html/exhortation-a-profiter-de-ce-qui-reste-des-dix-jours-de-dhul-hijjah.ar.html",
+    "publishedAt": "2024-02-04"
+  },
+  {
+    "id": "guide-nous-sur-le-droit-chemin",
+    "titre_fr": "GUIDE-NOUS SUR LE DROIT CHEMIN",
+    "titre_ar": "اهدنا الصراط المستقيم",
+    "url_fr": "sermons_html/guide-nous-sur-le-droit-chemin.fr.html",
+    "url_ar": "sermons_html/guide-nous-sur-le-droit-chemin.ar.html",
+    "publishedAt": "2024-01-24"
+  },
+  {
+    "id": "jesus-est-le-serviteur-dallah-et-son-messager",
+    "titre_fr": "JESUS EST LE SERVITEUR D’ALLAH ET SON MESSAGER",
+    "titre_ar": "عيسى عبد الله ورسوله",
+    "url_fr": "sermons_html/jesus-est-le-serviteur-dallah-et-son-messager.fr.html",
+    "url_ar": "sermons_html/jesus-est-le-serviteur-dallah-et-son-messager.ar.html",
+    "publishedAt": "2024-12-19"
+  },
+  {
+    "id": "jesus-fils-de-marie-que-la-paix-soit-sur-lui",
+    "titre_fr": "JESUS, FILS DE MARIE, QUE LA PAIX SOIT SUR LUI",
+    "titre_ar": "عيسى بن مريم عليه السلام",
+    "url_fr": "sermons_html/jesus-fils-de-marie-que-la-paix-soit-sur-lui.fr.html",
+    "url_ar": "sermons_html/jesus-fils-de-marie-que-la-paix-soit-sur-lui.ar.html",
+    "publishedAt": "2023-12-27"
+  },
+  {
+    "id": "jour-d-achoura",
+    "titre_fr": "JOUR D'ACHOURA",
+    "titre_ar": "يوم عاشوراء",
+    "url_fr": "sermons_html/jour-d-achoura.fr.html",
+    "url_ar": "sermons_html/jour-d-achoura.ar.html",
+    "publishedAt": "2024-03-04"
+  },
+  {
+    "id": "jour-de-arafah",
+    "titre_fr": "JOUR DE 'ARAFAH",
+    "titre_ar": "يوم عرفة",
+    "url_fr": "sermons_html/jour-de-arafah.fr.html",
+    "url_ar": "sermons_html/jour-de-arafah.ar.html",
+    "publishedAt": "2025-05-28"
+  },
+  {
+    "id": "jour-de-arafat",
+    "titre_fr": "JOUR DE ARAFAT",
+    "titre_ar": "يومُ عــرَفة",
+    "url_fr": "sermons_html/jour-de-arafat.fr.html",
+    "url_ar": "sermons_html/jour-de-arafat.ar.html",
+    "publishedAt": "2024-02-04"
+  },
+  {
+    "id": "jour-du-jugement",
+    "titre_fr": "JOUR DU JUGEMENT",
+    "titre_ar": "يوم الحساب",
+    "url_fr": "sermons_html/jour-du-jugement.fr.html",
+    "url_ar": "sermons_html/jour-du-jugement.ar.html",
+    "publishedAt": "2024-02-10"
+  },
+  {
+    "id": "jour-du-vendredi",
+    "titre_fr": "JOUR DU VENDREDI",
+    "titre_ar": "يوم الجمعـة",
+    "url_fr": "sermons_html/jour-du-vendredi.fr.html",
+    "url_ar": "sermons_html/jour-du-vendredi.ar.html",
+    "publishedAt": "2025-02-06"
+  },
+  {
+    "id": "jusqua-ce-quils-changent-ce-qui-est-en-eux-memes",
+    "titre_fr": "JUSQU’A CE QU’ILS CHANGENT CE QUI EST EN EUX-MEMES",
+    "titre_ar": "حتى يُغيِّروا ما بأنفسهم",
+    "url_fr": "sermons_html/jusqua-ce-quils-changent-ce-qui-est-en-eux-memes.fr.html",
+    "url_ar": "sermons_html/jusqua-ce-quils-changent-ce-qui-est-en-eux-memes.ar.html",
+    "publishedAt": "2026-04-30"
+  },
+  {
+    "id": "l-ambassadeur-mois-de-cha-ban",
+    "titre_fr": "L'AMBASSADEUR (Mois de Cha'bân)",
+    "titre_ar": "السفـــير - شهر شعبان",
+    "url_fr": "sermons_html/l-ambassadeur-mois-de-cha-ban.fr.html",
+    "url_ar": "sermons_html/l-ambassadeur-mois-de-cha-ban.ar.html",
+    "publishedAt": "2025-01-29"
+  },
+  {
+    "id": "l-antechrist",
+    "titre_fr": "L'ANTÉCHRIST",
+    "titre_ar": "الــدجــال",
+    "url_fr": "sermons_html/l-antechrist.fr.html",
+    "url_ar": "sermons_html/l-antechrist.ar.html",
+    "publishedAt": "2024-10-24"
+  },
+  {
+    "id": "l-enseignement-de-l-unicite-du-seigneur-de-l-univers-aux-enfants",
+    "titre_fr": "L'ENSEIGNEMENT_DE_L'UNICITÉ_DU_SEIGNEUR_DE_L'UNIVERS_AUX_ENFANTS",
+    "titre_ar": "تعليمُ_الأطفالِ_توحيدَ_ربِّ_العالمين",
+    "url_fr": "sermons_html/l-enseignement-de-l-unicite-du-seigneur-de-l-univers-aux-enfants.fr.html",
+    "url_ar": "sermons_html/l-enseignement-de-l-unicite-du-seigneur-de-l-univers-aux-enfants.ar.html",
+    "publishedAt": "2024-02-07"
+  },
+  {
+    "id": "l-impact-des-peches-et-des-desobeissances",
+    "titre_fr": "L'IMPACT DES PECHES ET DES DESOBEISSANCES",
+    "titre_ar": "أثر الذنوب والمعاصي",
+    "url_fr": "sermons_html/l-impact-des-peches-et-des-desobeissances.fr.html",
+    "url_ar": "sermons_html/l-impact-des-peches-et-des-desobeissances.ar.html",
+    "publishedAt": "2024-10-03"
+  },
+  {
+    "id": "l-importance-de-la-construction-de-la-famille-en-islam",
+    "titre_fr": "L'IMPORTANCE DE LA CONSTRUCTION DE LA FAMILLE EN ISLAM.",
+    "titre_ar": "خُطْبَةٌ_أَهَمِّيَّةُ_بِنَاءِ_الأُسْرَةِ_فِي_الإِسْلاَمِ_10",
+    "url_fr": "sermons_html/l-importance-de-la-construction-de-la-famille-en-islam.fr.html",
+    "url_ar": "sermons_html/l-importance-de-la-construction-de-la-famille-en-islam.ar.html",
+    "publishedAt": "2023-11-24"
+  },
+  {
+    "id": "l-interdiction-de-la-tromperie-et-de-la-duperie",
+    "titre_fr": "L'INTERDICTION DE LA TROMPERIE ET DE LA DUPERIE",
+    "titre_ar": "حرمة الغش والخديعة",
+    "url_fr": "sermons_html/l-interdiction-de-la-tromperie-et-de-la-duperie.fr.html",
+    "url_ar": "sermons_html/l-interdiction-de-la-tromperie-et-de-la-duperie.ar.html",
+    "publishedAt": "2024-02-24"
+  },
+  {
+    "id": "la-bataille-des-dettes",
+    "titre_fr": "LA BATAILLE DES DETTES",
+    "titre_ar": "معركة الديون",
+    "url_fr": "sermons_html/la-bataille-des-dettes.fr.html",
+    "url_ar": "sermons_html/la-bataille-des-dettes.ar.html",
+    "publishedAt": "2024-09-26"
+  },
+  {
+    "id": "la-benediction-de-la-guidance-vers-l-unicite-tawhid",
+    "titre_fr": "LA BENEDICTION DE LA GUIDANCE VERS L'UNICITE (TAWHID)",
+    "titre_ar": "نِعْمَةُ_الْهِدَايَةِ_إِلَى_التَّوْحِيدِ",
+    "url_fr": "sermons_html/la-benediction-de-la-guidance-vers-l-unicite-tawhid.fr.html",
+    "url_ar": "sermons_html/la-benediction-de-la-guidance-vers-l-unicite-tawhid.ar.html",
+    "publishedAt": "2024-12-26"
+  },
+  {
+    "id": "la-benediction",
+    "titre_fr": "LA BÉNÉDICTION",
+    "titre_ar": "البركة",
+    "url_fr": "sermons_html/la-benediction.fr.html",
+    "url_ar": "sermons_html/la-benediction.ar.html",
+    "publishedAt": "2024-02-01"
+  },
+  {
+    "id": "la-bienfaisance-envers-les-creatures",
+    "titre_fr": "LA BIENFAISANCE ENVERS LES CREATURES",
+    "titre_ar": "الإحسانُ إلى الخَلْقِ",
+    "url_fr": "sermons_html/la-bienfaisance-envers-les-creatures.fr.html",
+    "url_ar": "sermons_html/la-bienfaisance-envers-les-creatures.ar.html",
+    "publishedAt": "2025-11-13"
+  },
+  {
+    "id": "la-bienveillance-envers-les-voisins-la-voie-des-croyants",
+    "titre_fr": "LA BIENVEILLANCE ENVERS LES VOISINS,  LA VOIE DES CROYANTS",
+    "titre_ar": "الْإِحْسَانُ_إِلَى_الْجِيرَانِ_سَبِيلُ_أَهْلِ_الْإِيمَانِ",
+    "url_fr": "sermons_html/la-bienveillance-envers-les-voisins-la-voie-des-croyants.fr.html",
+    "url_ar": "sermons_html/la-bienveillance-envers-les-voisins-la-voie-des-croyants.ar.html",
+    "publishedAt": "2024-10-30"
+  },
+  {
+    "id": "la-cherte-des-dots",
+    "titre_fr": "LA CHERTÉ DES DOTS",
+    "titre_ar": "غلاءُ المُهور",
+    "url_fr": "sermons_html/la-cherte-des-dots.fr.html",
+    "url_ar": "sermons_html/la-cherte-des-dots.ar.html",
+    "publishedAt": "2026-01-22"
+  },
+  {
+    "id": "la-clemence-et-la-tolerance",
+    "titre_fr": "LA CLEMENCE ET LA TOLERANCE",
+    "titre_ar": "السماحة",
+    "url_fr": "sermons_html/la-clemence-et-la-tolerance.fr.html",
+    "url_ar": "sermons_html/la-clemence-et-la-tolerance.ar.html",
+    "publishedAt": "2025-10-09"
+  },
+  {
+    "id": "la-confiance-en-allah",
+    "titre_fr": "LA CONFIANCE EN ALLAH",
+    "titre_ar": "الثقة بالله",
+    "url_fr": "sermons_html/la-confiance-en-allah.fr.html",
+    "url_ar": "sermons_html/la-confiance-en-allah.ar.html",
+    "publishedAt": "2023-11-21"
+  },
+  {
+    "id": "la-conservation-des-bonnes-actions",
+    "titre_fr": "LA CONSERVATION DES BONNES ACTIONS",
+    "titre_ar": "الحفاظ على الحسنات",
+    "url_fr": "sermons_html/la-conservation-des-bonnes-actions.fr.html",
+    "url_ar": "sermons_html/la-conservation-des-bonnes-actions.ar.html",
+    "publishedAt": "2024-01-27"
+  },
+  {
+    "id": "la-constance-dans-lobeissance-a-allah",
+    "titre_fr": "LA CONSTANCE DANS L’OBEISSANCE (A ALLAH)",
+    "titre_ar": "الثبات على الطاعات",
+    "url_fr": "sermons_html/la-constance-dans-lobeissance-a-allah.fr.html",
+    "url_ar": "sermons_html/la-constance-dans-lobeissance-a-allah.ar.html",
+    "publishedAt": "2026-03-25"
+  },
+  {
+    "id": "la-corruption-et-les-moyens-de-la-combattre",
+    "titre_fr": "LA CORRUPTION ET LES MOYENS DE LA COMBATTRE",
+    "titre_ar": "الْفَسَادُ_وَطُرُقُ_مُكَافَحَتِهِ",
+    "url_fr": "sermons_html/la-corruption-et-les-moyens-de-la-combattre.fr.html",
+    "url_ar": "sermons_html/la-corruption-et-les-moyens-de-la-combattre.ar.html",
+    "publishedAt": "2024-12-12"
+  },
+  {
+    "id": "la-course-a-laccumulation-vous-distrait",
+    "titre_fr": "LA COURSE A L’ACCUMULATION VOUS DISTRAIT",
+    "titre_ar": "﴿ألهاكم التكاثر﴾",
+    "url_fr": "sermons_html/la-course-a-laccumulation-vous-distrait.fr.html",
+    "url_ar": "sermons_html/la-course-a-laccumulation-vous-distrait.ar.html",
+    "publishedAt": "2026-05-29"
+  },
+  {
+    "id": "la-course-du-mois-de-ramadan",
+    "titre_fr": "LA COURSE DU MOIS DE RAMADAN",
+    "titre_ar": "سباق رمضان",
+    "url_fr": "sermons_html/la-course-du-mois-de-ramadan.fr.html",
+    "url_ar": "sermons_html/la-course-du-mois-de-ramadan.ar.html",
+    "publishedAt": "2024-02-03"
+  },
+  {
+    "id": "la-crainte-reverencielle-dans-la-priere",
+    "titre_fr": "LA CRAINTE RÉVÉRENCIELLE DANS LA PRIÈRE",
+    "titre_ar": "الخشوع في الصلاة",
+    "url_fr": "sermons_html/la-crainte-reverencielle-dans-la-priere.fr.html",
+    "url_ar": "sermons_html/la-crainte-reverencielle-dans-la-priere.ar.html",
+    "publishedAt": "2024-08-08"
+  },
+  {
+    "id": "la-croyance",
+    "titre_fr": "LA CROYANCE",
+    "titre_ar": "العقيدة",
+    "url_fr": "sermons_html/la-croyance.fr.html",
+    "url_ar": "sermons_html/la-croyance.ar.html",
+    "publishedAt": "2026-01-29"
+  },
+  {
+    "id": "la-descente-des-benedictions-le-jour-de-arafat",
+    "titre_fr": "LA DESCENTE DES BÉNÉDICTIONS LE JOUR DE ARAFAT",
+    "titre_ar": "تنزل الرحمات في يوم عرفات",
+    "url_fr": "sermons_html/la-descente-des-benedictions-le-jour-de-arafat.fr.html",
+    "url_ar": "sermons_html/la-descente-des-benedictions-le-jour-de-arafat.ar.html",
+    "publishedAt": "2024-02-04"
+  },
+  {
+    "id": "la-diffusion-du-salam",
+    "titre_fr": "LA DIFFUSION DU SALAM",
+    "titre_ar": "إِفْشَاءُ السَّلَامِ",
+    "url_fr": "sermons_html/la-diffusion-du-salam.fr.html",
+    "url_ar": "sermons_html/la-diffusion-du-salam.ar.html",
+    "publishedAt": "2025-01-02"
+  },
+  {
+    "id": "la-divination-moderne",
+    "titre_fr": "LA DIVINATION MODERNE",
+    "titre_ar": "الْكِهَانَةُ الْحَدِيثَةُ",
+    "url_fr": "sermons_html/la-divination-moderne.fr.html",
+    "url_ar": "sermons_html/la-divination-moderne.ar.html",
+    "publishedAt": "2025-10-23"
+  },
+  {
+    "id": "la-douceur",
+    "titre_fr": "LA DOUCEUR",
+    "titre_ar": "الرِّفْق",
+    "url_fr": "sermons_html/la-douceur.fr.html",
+    "url_ar": "sermons_html/la-douceur.ar.html",
+    "publishedAt": "2025-11-20"
+  },
+  {
+    "id": "la-droiture-dans-lobeissance-095142",
+    "titre_fr": "LA DROITURE DANS L’OBÉISSANCE_095142",
+    "titre_ar": "الِاسْتِقَامَةُ_عَلَى_الطَّاعَةِ_095157",
+    "url_fr": "sermons_html/la-droiture-dans-lobeissance-095142.fr.html",
+    "url_ar": "sermons_html/la-droiture-dans-lobeissance-095142.ar.html",
+    "publishedAt": "2025-04-03"
+  },
+  {
+    "id": "la-durete-du-cur",
+    "titre_fr": "LA DURETÉ DU CŒUR",
+    "titre_ar": "قسوة القلب",
+    "url_fr": "sermons_html/la-durete-du-cur.fr.html",
+    "url_ar": "sermons_html/la-durete-du-cur.ar.html",
+    "publishedAt": "2024-08-29"
+  },
+  {
+    "id": "la-famille",
+    "titre_fr": "LA FAMILLE",
+    "titre_ar": "الأسرة",
+    "url_fr": "sermons_html/la-famille.fr.html",
+    "url_ar": "sermons_html/la-famille.ar.html",
+    "publishedAt": "2023-11-23"
+  },
+  {
+    "id": "la-fin-des-injustes",
+    "titre_fr": "LA FIN DES INJUSTES",
+    "titre_ar": "عاقبة الظالمين",
+    "url_fr": "sermons_html/la-fin-des-injustes.fr.html",
+    "url_ar": "sermons_html/la-fin-des-injustes.ar.html",
+    "publishedAt": "2026-02-05"
+  },
+  {
+    "id": "la-fleche-empoisonnee-le-regard-illicite",
+    "titre_fr": "LA FLÈCHE EMPOISONNÉE (LE REGARD ILLICITE)",
+    "titre_ar": "السهم المسموم (إطلاق البصر)",
+    "url_fr": "sermons_html/la-fleche-empoisonnee-le-regard-illicite.fr.html",
+    "url_ar": "sermons_html/la-fleche-empoisonnee-le-regard-illicite.ar.html",
+    "publishedAt": "2025-10-02"
+  },
+  {
+    "id": "la-foi-au-destin",
+    "titre_fr": "LA FOI AU DESTIN",
+    "titre_ar": "الإيمان بالقدر",
+    "url_fr": "sermons_html/la-foi-au-destin.fr.html",
+    "url_ar": "sermons_html/la-foi-au-destin.ar.html",
+    "publishedAt": "2026-01-09"
+  },
+  {
+    "id": "la-foi-en-la-balance-le-jour-du-jugement",
+    "titre_fr": "LA FOI EN LA BALANCE LE JOUR DU JUGEMENT.",
+    "titre_ar": "الإيمان_بالميزان_يوم_القيامة_1",
+    "url_fr": "sermons_html/la-foi-en-la-balance-le-jour-du-jugement.fr.html",
+    "url_ar": "sermons_html/la-foi-en-la-balance-le-jour-du-jugement.ar.html",
+    "publishedAt": "2024-01-11"
+  },
+  {
+    "id": "la-grandeur-dallah",
+    "titre_fr": "LA GRANDEUR D’ALLAH",
+    "titre_ar": "عظمة الله",
+    "url_fr": "sermons_html/la-grandeur-dallah.fr.html",
+    "url_ar": "sermons_html/la-grandeur-dallah.ar.html",
+    "publishedAt": "2024-02-03"
+  },
+  {
+    "id": "la-grace-de-lislam",
+    "titre_fr": "LA GRÂCE DE L’ISLAM",
+    "titre_ar": "نِعْمَةُ الإِسْلَامِ",
+    "url_fr": "sermons_html/la-grace-de-lislam.fr.html",
+    "url_ar": "sermons_html/la-grace-de-lislam.ar.html",
+    "publishedAt": "2025-10-02"
+  },
+  {
+    "id": "la-jalousie-1",
+    "titre_fr": "LA JALOUSIE (1)",
+    "titre_ar": "الحَسَـدُ (1)",
+    "url_fr": "sermons_html/la-jalousie-1.fr.html",
+    "url_ar": "sermons_html/la-jalousie-1.ar.html",
+    "publishedAt": "2025-05-14"
+  },
+  {
+    "id": "la-mauvaise-fin-causes-et-consequences",
+    "titre_fr": "LA MAUVAISE FIN, CAUSES ET CONSÉQUENCES",
+    "titre_ar": "سُوء الخاتِمَة",
+    "url_fr": "sermons_html/la-mauvaise-fin-causes-et-consequences.fr.html",
+    "url_ar": "sermons_html/la-mauvaise-fin-causes-et-consequences.ar.html",
+    "publishedAt": "2024-10-17"
+  },
+  {
+    "id": "la-maitrise-du-regard",
+    "titre_fr": "LA MAÎTRISE DU REGARD",
+    "titre_ar": "غَضُّ الْبَصَرِ",
+    "url_fr": "sermons_html/la-maitrise-du-regard.fr.html",
+    "url_ar": "sermons_html/la-maitrise-du-regard.ar.html",
+    "publishedAt": "2024-10-24"
+  },
+  {
+    "id": "la-meditation-du-coran",
+    "titre_fr": "LA MEDITATION DU CORAN",
+    "titre_ar": "تَدَبُّرُ القرآن",
+    "url_fr": "sermons_html/la-meditation-du-coran.fr.html",
+    "url_ar": "sermons_html/la-meditation-du-coran.ar.html",
+    "publishedAt": "2026-02-26"
+  },
+  {
+    "id": "la-nuit-de-la-vie",
+    "titre_fr": "LA NUIT DE LA VIE",
+    "titre_ar": "ليلـةُ العُمـــر",
+    "url_fr": "sermons_html/la-nuit-de-la-vie.fr.html",
+    "url_ar": "sermons_html/la-nuit-de-la-vie.ar.html",
+    "publishedAt": "2025-03-21"
+  },
+  {
+    "id": "la-nuit-de-la-vie-la-nuit-du-destin",
+    "titre_fr": "LA NUIT DE LA VIE (LA NUIT DU DESTIN)",
+    "titre_ar": "ليلة العمر (ليلة القدر)",
+    "url_fr": "sermons_html/la-nuit-de-la-vie-la-nuit-du-destin.fr.html",
+    "url_ar": "sermons_html/la-nuit-de-la-vie-la-nuit-du-destin.ar.html",
+    "publishedAt": "2024-02-25"
+  },
+  {
+    "id": "la-nuit-du-destin-laylat-al-qadr",
+    "titre_fr": "LA NUIT DU DESTIN (LAYLAT AL-QADR)",
+    "titre_ar": "ليلـة القدر",
+    "url_fr": "sermons_html/la-nuit-du-destin-laylat-al-qadr.fr.html",
+    "url_ar": "sermons_html/la-nuit-du-destin-laylat-al-qadr.ar.html",
+    "publishedAt": "2026-03-12"
+  },
+  {
+    "id": "la-paix-et-la-fraternite-face-aux-troubles-et-aux-conflits",
+    "titre_fr": "LA PAIX ET LA FRATERNITE FACE AUX TROUBLES ET AUX CONFLITS",
+    "titre_ar": "السلام_والتآخي_في_مواجهة_الفتن_والنزاعات",
+    "url_fr": "sermons_html/la-paix-et-la-fraternite-face-aux-troubles-et-aux-conflits.fr.html",
+    "url_ar": "sermons_html/la-paix-et-la-fraternite-face-aux-troubles-et-aux-conflits.ar.html",
+    "publishedAt": "2024-10-02"
+  },
+  {
+    "id": "la-parole-de-lunicite",
+    "titre_fr": "LA PAROLE DE L’UNICITÉ",
+    "titre_ar": "كلمة التوحيد",
+    "url_fr": "sermons_html/la-parole-de-lunicite.fr.html",
+    "url_ar": "sermons_html/la-parole-de-lunicite.ar.html",
+    "publishedAt": "2024-08-22"
+  },
+  {
+    "id": "la-perseverance-dans-lobeissance",
+    "titre_fr": "LA PERSÉVÉRANCE DANS L’OBÉISSANCE",
+    "titre_ar": "الثباتُ على الطاعات",
+    "url_fr": "sermons_html/la-perseverance-dans-lobeissance.fr.html",
+    "url_ar": "sermons_html/la-perseverance-dans-lobeissance.ar.html",
+    "publishedAt": "2024-02-03"
+  },
+  {
+    "id": "la-petite-resurrection",
+    "titre_fr": "LA PETITE RESURRECTION",
+    "titre_ar": "القيامة الصغرى",
+    "url_fr": "sermons_html/la-petite-resurrection.fr.html",
+    "url_ar": "sermons_html/la-petite-resurrection.ar.html",
+    "publishedAt": "2024-08-07"
+  },
+  {
+    "id": "la-piete-filiale",
+    "titre_fr": "LA PIETE FILIALE",
+    "titre_ar": "بر الوالدين",
+    "url_fr": "sermons_html/la-piete-filiale.fr.html",
+    "url_ar": "sermons_html/la-piete-filiale.ar.html",
+    "publishedAt": "2025-08-14"
+  },
+  {
+    "id": "la-piete-filiale-apres-la-mort-des-parents-1",
+    "titre_fr": "LA PIETE FILIALE APRES LA MORT DES PARENTS (1)",
+    "titre_ar": "بِرُّ الوالِدَين بعد الموت (1)",
+    "url_fr": "sermons_html/la-piete-filiale-apres-la-mort-des-parents-1.fr.html",
+    "url_ar": "sermons_html/la-piete-filiale-apres-la-mort-des-parents-1.ar.html",
+    "publishedAt": "2025-04-23"
+  },
+  {
+    "id": "la-position-de-l-ihsan-bienveillance",
+    "titre_fr": "LA POSITION DE L'IHSAN (BIENVEILLANCE)",
+    "titre_ar": "منزلة الإحسان",
+    "url_fr": "sermons_html/la-position-de-l-ihsan-bienveillance.fr.html",
+    "url_ar": "sermons_html/la-position-de-l-ihsan-bienveillance.ar.html",
+    "publishedAt": "2024-10-17"
+  },
+  {
+    "id": "la-position-louable",
+    "titre_fr": "LA POSITION LOUABLE",
+    "titre_ar": "المقام المحمود",
+    "url_fr": "sermons_html/la-position-louable.fr.html",
+    "url_ar": "sermons_html/la-position-louable.ar.html",
+    "publishedAt": "2024-02-24"
+  },
+  {
+    "id": "la-priere-pour-le-cur",
+    "titre_fr": "LA PRIÈRE POUR LE CŒUR",
+    "titre_ar": "الدعاء للقلب",
+    "url_fr": "sermons_html/la-priere-pour-le-cur.fr.html",
+    "url_ar": "sermons_html/la-priere-pour-le-cur.ar.html",
+    "publishedAt": "2024-02-21"
+  },
+  {
+    "id": "la-priere-en-groupe-et-le-pardon-des-peches",
+    "titre_fr": "LA PRIÈRE EN GROUPE ET LE PARDON DES PÉCHÉS",
+    "titre_ar": "صلاةُ_الجَمَاعَةِ_ومَغْفِرَةُ_الذنوب",
+    "url_fr": "sermons_html/la-priere-en-groupe-et-le-pardon-des-peches.fr.html",
+    "url_ar": "sermons_html/la-priere-en-groupe-et-le-pardon-des-peches.ar.html",
+    "publishedAt": "2024-07-18"
+  },
+  {
+    "id": "la-proximite-dallah",
+    "titre_fr": "LA PROXIMITÉ D’ALLAH",
+    "titre_ar": "القُرْبُ من الله",
+    "url_fr": "sermons_html/la-proximite-dallah.fr.html",
+    "url_ar": "sermons_html/la-proximite-dallah.ar.html",
+    "publishedAt": "2025-09-25"
+  },
+  {
+    "id": "la-preservation-de-lenvironnement-1",
+    "titre_fr": "LA PRÉSERVATION DE L’ENVIRONNEMENT_ (1)",
+    "titre_ar": "المحافظة على البيئة",
+    "url_fr": "sermons_html/la-preservation-de-lenvironnement-1.fr.html",
+    "url_ar": "sermons_html/la-preservation-de-lenvironnement-1.ar.html",
+    "publishedAt": "2026-01-08"
+  },
+  {
+    "id": "la-raison-et-la-revelation",
+    "titre_fr": "LA RAISON ET LA REVELATION",
+    "titre_ar": "العَقْلُ والنَّقْل",
+    "url_fr": "sermons_html/la-raison-et-la-revelation.fr.html",
+    "url_ar": "sermons_html/la-raison-et-la-revelation.ar.html",
+    "publishedAt": "2024-11-21"
+  },
+  {
+    "id": "la-responsabilite-de-la-parole",
+    "titre_fr": "LA RESPONSABILITÉ DE LA PAROLE",
+    "titre_ar": "مَسْؤُولِيَّةُ الْكَلِمَةِ",
+    "url_fr": "sermons_html/la-responsabilite-de-la-parole.fr.html",
+    "url_ar": "sermons_html/la-responsabilite-de-la-parole.ar.html",
+    "publishedAt": "2025-06-19"
+  },
+  {
+    "id": "la-recompense-est-proportionnelle-au-travail",
+    "titre_fr": "LA RÉCOMPENSE EST PROPORTIONNELLE AU TRAVAIL",
+    "titre_ar": "الجزاء من جنس العمل",
+    "url_fr": "sermons_html/la-recompense-est-proportionnelle-au-travail.fr.html",
+    "url_ar": "sermons_html/la-recompense-est-proportionnelle-au-travail.ar.html",
+    "publishedAt": "2024-02-29"
+  },
+  {
+    "id": "la-salutation-en-islam-sa-legitimite-et-ses-regles",
+    "titre_fr": "LA SALUTATION EN ISLAM, SA LÉGITIMITÉ ET SES RÈGLES",
+    "titre_ar": "التَّحِيَّةُ_فِي_الإِسْلَامِ_مَشْرُوعِيَّتُهَا_وَأَحْكَامُهَا",
+    "url_fr": "sermons_html/la-salutation-en-islam-sa-legitimite-et-ses-regles.fr.html",
+    "url_ar": "sermons_html/la-salutation-en-islam-sa-legitimite-et-ses-regles.ar.html",
+    "publishedAt": "2026-01-08"
+  },
+  {
+    "id": "la-securite-dans-la-preservation-de-la-langue",
+    "titre_fr": "LA SECURITE DANS LA PRESERVATION DE LA LANGUE",
+    "titre_ar": "الأمان في صيانة اللسان",
+    "url_fr": "sermons_html/la-securite-dans-la-preservation-de-la-langue.fr.html",
+    "url_ar": "sermons_html/la-securite-dans-la-preservation-de-la-langue.ar.html",
+    "publishedAt": "2024-10-24"
+  },
+  {
+    "id": "la-servitude",
+    "titre_fr": "LA SERVITUDE",
+    "titre_ar": "العبودية",
+    "url_fr": "sermons_html/la-servitude.fr.html",
+    "url_ar": "sermons_html/la-servitude.ar.html",
+    "publishedAt": "2025-12-11"
+  },
+  {
+    "id": "la-serenite",
+    "titre_fr": "LA SÉRÉNITÉ",
+    "titre_ar": "السكينة",
+    "url_fr": "sermons_html/la-serenite.fr.html",
+    "url_ar": "sermons_html/la-serenite.ar.html",
+    "publishedAt": "2025-07-31"
+  },
+  {
+    "id": "la-tentation-du-messie-imposteur",
+    "titre_fr": "LA TENTATION DU MESSIE IMPOSTEUR",
+    "titre_ar": "فتنة المسيح الدجال",
+    "url_fr": "sermons_html/la-tentation-du-messie-imposteur.fr.html",
+    "url_ar": "sermons_html/la-tentation-du-messie-imposteur.ar.html",
+    "publishedAt": "2024-02-17"
+  },
+  {
+    "id": "la-vente-reglements-et-bonnes-manieres",
+    "titre_fr": "LA VENTE, REGLEMENTS ET BONNES MANIERES",
+    "titre_ar": "البيع أحكام و آداب",
+    "url_fr": "sermons_html/la-vente-reglements-et-bonnes-manieres.fr.html",
+    "url_ar": "sermons_html/la-vente-reglements-et-bonnes-manieres.ar.html",
+    "publishedAt": "2024-07-25"
+  },
+  {
+    "id": "la-vision-ou-le-reve-regles-et-etiquettes",
+    "titre_fr": "LA VISION (OU LE RÊVE), RÈGLES ET ÉTIQUETTES",
+    "titre_ar": "الرُّؤْيَا_أَحكَّامٌ_وَآدَابٌ",
+    "url_fr": "sermons_html/la-vision-ou-le-reve-regles-et-etiquettes.fr.html",
+    "url_ar": "sermons_html/la-vision-ou-le-reve-regles-et-etiquettes.ar.html",
+    "publishedAt": "2024-02-21"
+  },
+  {
+    "id": "la-vision-de-dieu-tres-haut-dans-lau-dela",
+    "titre_fr": "LA VISION DE DIEU (TRÈS-HAUT) DANS L’AU-DELÀ",
+    "titre_ar": "رُؤْيَةُ_اللَّهِ_تَعَالَى_فِي_الْآخِرَةِ",
+    "url_fr": "sermons_html/la-vision-de-dieu-tres-haut-dans-lau-dela.fr.html",
+    "url_ar": "sermons_html/la-vision-de-dieu-tres-haut-dans-lau-dela.ar.html",
+    "publishedAt": "2025-11-27"
+  },
+  {
+    "id": "la-voie-de-la-rectitude-dans-la-lutte-contre-la-corruption",
+    "titre_fr": "LA VOIE DE LA RECTITUDE DANS LA LUTTE CONTRE LA CORRUPTION",
+    "titre_ar": "سَبِيلُ_السَّدَادِ_فِي_مُدَافَعَةِ_الْفَسَادِ",
+    "url_fr": "sermons_html/la-voie-de-la-rectitude-dans-la-lutte-contre-la-corruption.fr.html",
+    "url_ar": "sermons_html/la-voie-de-la-rectitude-dans-la-lutte-contre-la-corruption.ar.html",
+    "publishedAt": "2025-12-05"
+  },
+  {
+    "id": "la-zakat-al-fitr",
+    "titre_fr": "LA ZAKAT AL-FITR",
+    "titre_ar": "زَكَاةُ الْفِطْر",
+    "url_fr": "sermons_html/la-zakat-al-fitr.fr.html",
+    "url_ar": "sermons_html/la-zakat-al-fitr.ar.html",
+    "publishedAt": "2025-03-27"
+  },
+  {
+    "id": "la-zakat-est-une-purification-et-croissance-spirituelle",
+    "titre_fr": "LA ZAKAT EST UNE PURIFICATION ET CROISSANCE SPIRITUELLE",
+    "titre_ar": "الزكاة تزكية وطهارة",
+    "url_fr": "sermons_html/la-zakat-est-une-purification-et-croissance-spirituelle.fr.html",
+    "url_ar": "sermons_html/la-zakat-est-une-purification-et-croissance-spirituelle.ar.html",
+    "publishedAt": "2024-02-10"
+  },
+  {
+    "id": "la-zakat-purification-et-assainissement",
+    "titre_fr": "LA ZAKAT, PURIFICATION ET ASSAINISSEMENT",
+    "titre_ar": "الزَّكَاةُ_تَزْكِيَةٌ_وَطَهَارَةٌ",
+    "url_fr": "sermons_html/la-zakat-purification-et-assainissement.fr.html",
+    "url_ar": "sermons_html/la-zakat-purification-et-assainissement.ar.html",
+    "publishedAt": "2026-02-26"
+  },
+  {
+    "id": "la-fraternite-de-la-foi-ses-droits-ses-devoirs-et-ses-deviations",
+    "titre_fr": "LA_FRATERNITÉ_DE_LA_FOI_SES_DROITS_SES_DEVOIRS_ET_SES_DÉVIATIONS",
+    "titre_ar": "خطبة_بعنوان_الأُخُوة_الإيمانية_حقوقها_وواجباتها_ومفسداتها_1",
+    "url_fr": "sermons_html/la-fraternite-de-la-foi-ses-droits-ses-devoirs-et-ses-deviations.fr.html",
+    "url_ar": "sermons_html/la-fraternite-de-la-foi-ses-droits-ses-devoirs-et-ses-deviations.ar.html",
+    "publishedAt": "2023-11-29"
+  },
+  {
+    "id": "la-necessite-de-la-prudence-face-aux-risques-presents-dans-les-medias",
+    "titre_fr": "LA_NECESSITE_DE_LA_PRUDENCE_FACE_AUX_RISQUES_PRESENTS_DANS_LES_MEDIAS",
+    "titre_ar": "الْحَذَرُ_مِمَّا_فِي_وَسَائِلِ_التَّوَاصُلِ_مِنْ_خَطَرٍ",
+    "url_fr": "sermons_html/la-necessite-de-la-prudence-face-aux-risques-presents-dans-les-medias.fr.html",
+    "url_ar": "sermons_html/la-necessite-de-la-prudence-face-aux-risques-presents-dans-les-medias.ar.html",
+    "publishedAt": "2024-01-18"
+  },
+  {
+    "id": "la-patience-a-travers-lhistoire-du-prophete-ayyoub-paix-sur-lui",
+    "titre_fr": "LA_PATIENCE_à_travers_l’histoire_du_prophète_AYYOUB_–_paix_sur_lui",
+    "titre_ar": "الصبــر_من_قصة_نبي_الله_أيوب_–_عليه_السلام",
+    "url_fr": "sermons_html/la-patience-a-travers-lhistoire-du-prophete-ayyoub-paix-sur-lui.fr.html",
+    "url_ar": "sermons_html/la-patience-a-travers-lhistoire-du-prophete-ayyoub-paix-sur-lui.ar.html",
+    "publishedAt": "2025-01-30"
+  },
+  {
+    "id": "la-preference-de-la-perseverance-sur-lobeissance-le-jeune",
+    "titre_fr": "LA_PRÉFÉRENCE_DE_LA_PERSÉVÉRANCE_SUR_L’OBÉISSANCE_LE_JEÛNE",
+    "titre_ar": "خُطْبَة_فَضْلُ_الْمُدَاوَمَةِ_عَلَى_الطَّاعَةِ_صِيَامُ_الست_من",
+    "url_fr": "sermons_html/la-preference-de-la-perseverance-sur-lobeissance-le-jeune.fr.html",
+    "url_ar": "sermons_html/la-preference-de-la-perseverance-sur-lobeissance-le-jeune.ar.html",
+    "publishedAt": "2024-01-28"
+  },
+  {
+    "id": "la-protection-de-l-environnement-dans-la-perspective-de-la-loi-islamique",
+    "titre_fr": "LA_PROTECTION_DE_L'ENVIRONNEMENT_DANS_LA_PERSPECTIVE_DE_LA_LOI_ISLAMIQUE",
+    "titre_ar": "حماية البيئة في منظور الشريعة",
+    "url_fr": "sermons_html/la-protection-de-l-environnement-dans-la-perspective-de-la-loi-islamique.fr.html",
+    "url_ar": "sermons_html/la-protection-de-l-environnement-dans-la-perspective-de-la-loi-islamique.ar.html",
+    "publishedAt": "2024-01-04"
+  },
+  {
+    "id": "le-besoin-absolu-dallah",
+    "titre_fr": "LE BESOIN ABSOLU D’ALLAH",
+    "titre_ar": "الافتقار إلى الله",
+    "url_fr": "sermons_html/le-besoin-absolu-dallah.fr.html",
+    "url_ar": "sermons_html/le-besoin-absolu-dallah.ar.html",
+    "publishedAt": "2026-06-04"
+  },
+  {
+    "id": "le-bienfait-de-la-guidance-vers-lunicite-at-tawhid",
+    "titre_fr": "LE BIENFAIT DE LA GUIDANCE VERS L’UNICITE (AT-TAWḤID)",
+    "titre_ar": "نِعْمَةُ_الْهِدَايَةِ_إِلَى_التَّوْحِيدِ (2)",
+    "url_fr": "sermons_html/le-bienfait-de-la-guidance-vers-lunicite-at-tawhid.fr.html",
+    "url_ar": "sermons_html/le-bienfait-de-la-guidance-vers-lunicite-at-tawhid.ar.html",
+    "publishedAt": "2026-01-01"
+  },
+  {
+    "id": "le-butin-froid",
+    "titre_fr": "LE BUTIN FROID",
+    "titre_ar": "الغنيمة الباردة",
+    "url_fr": "sermons_html/le-butin-froid.fr.html",
+    "url_ar": "sermons_html/le-butin-froid.ar.html",
+    "publishedAt": "2024-01-04"
+  },
+  {
+    "id": "le-danger-de-la-discorde-entre-les-musulmans",
+    "titre_fr": "LE DANGER DE LA DISCORDE ENTRE LES MUSULMANS",
+    "titre_ar": "خَطَرُ_التَّحْرِيشِ_بَيْنَ_الْمُسْلِمِينَ",
+    "url_fr": "sermons_html/le-danger-de-la-discorde-entre-les-musulmans.fr.html",
+    "url_ar": "sermons_html/le-danger-de-la-discorde-entre-les-musulmans.ar.html",
+    "publishedAt": "2025-04-23"
+  },
+  {
+    "id": "le-dernier-livre",
+    "titre_fr": "LE DERNIER LIVRE",
+    "titre_ar": "الكتاب الأخير",
+    "url_fr": "sermons_html/le-dernier-livre.fr.html",
+    "url_ar": "sermons_html/le-dernier-livre.ar.html",
+    "publishedAt": "2026-04-30"
+  },
+  {
+    "id": "le-divorce-causes-et-consequences",
+    "titre_fr": "LE DIVORCE, CAUSES ET CONSÉQUENCES",
+    "titre_ar": "الطَّلَاقُ أَسْبَابٌ وَآثَارٌ",
+    "url_fr": "sermons_html/le-divorce-causes-et-consequences.fr.html",
+    "url_ar": "sermons_html/le-divorce-causes-et-consequences.ar.html",
+    "publishedAt": "2024-10-10"
+  },
+  {
+    "id": "le-fort-et-digne-de-confiance",
+    "titre_fr": "LE FORT ET DIGNE DE CONFIANCE",
+    "titre_ar": "القويُّ الأمين",
+    "url_fr": "sermons_html/le-fort-et-digne-de-confiance.fr.html",
+    "url_ar": "sermons_html/le-fort-et-digne-de-confiance.ar.html",
+    "publishedAt": "2025-12-04"
+  },
+  {
+    "id": "le-fort-et-fidele",
+    "titre_fr": "LE FORT ET FIDELE",
+    "titre_ar": "القويُّ الأمين (2)",
+    "url_fr": "sermons_html/le-fort-et-fidele.fr.html",
+    "url_ar": "sermons_html/le-fort-et-fidele.ar.html",
+    "publishedAt": "2024-12-05"
+  },
+  {
+    "id": "le-gain-facile-lhiver-1",
+    "titre_fr": "LE GAIN FACILE (L’HIVER)_ (1)",
+    "titre_ar": "الغنيمة الباردة (1)",
+    "url_fr": "sermons_html/le-gain-facile-lhiver-1.fr.html",
+    "url_ar": "sermons_html/le-gain-facile-lhiver-1.ar.html",
+    "publishedAt": "2025-12-17"
+  },
+  {
+    "id": "le-jour-de-arafat",
+    "titre_fr": "LE JOUR DE ‘ARAFAT",
+    "titre_ar": "يومُ عــرَفة",
+    "url_fr": "sermons_html/le-jour-de-arafat.fr.html",
+    "url_ar": "sermons_html/le-jour-de-arafat.ar.html",
+    "publishedAt": "2026-05-20"
+  },
+  {
+    "id": "le-kawthar",
+    "titre_fr": "LE KAWTHAR",
+    "titre_ar": "الكوثر",
+    "url_fr": "sermons_html/le-kawthar.fr.html",
+    "url_ar": "sermons_html/le-kawthar.ar.html",
+    "publishedAt": "2025-09-18"
+  },
+  {
+    "id": "le-lien-solide-dallah",
+    "titre_fr": "LE LIEN SOLIDE D’ALLAH",
+    "titre_ar": "حَبْلُ اللهِ الْمَتِينُ",
+    "url_fr": "sermons_html/le-lien-solide-dallah.fr.html",
+    "url_ar": "sermons_html/le-lien-solide-dallah.ar.html",
+    "publishedAt": "2024-11-13"
+  },
+  {
+    "id": "le-maintien-des-liens-familiaux",
+    "titre_fr": "LE MAINTIEN DES LIENS FAMILIAUX",
+    "titre_ar": "صِلَةُ الرَّحِـم",
+    "url_fr": "sermons_html/le-maintien-des-liens-familiaux.fr.html",
+    "url_ar": "sermons_html/le-maintien-des-liens-familiaux.ar.html",
+    "publishedAt": "2024-12-12"
+  },
+  {
+    "id": "le-meilleur-accueil-pour-le-mois-de-ramadan",
+    "titre_fr": "LE MEILLEUR ACCUEIL POUR LE MOIS DE RAMADAN",
+    "titre_ar": "خَيْرُ_مَا_يُسْتَقْبَلُ_بِهِ_شَهْرُ_رَمَضَانَ",
+    "url_fr": "sermons_html/le-meilleur-accueil-pour-le-mois-de-ramadan.fr.html",
+    "url_ar": "sermons_html/le-meilleur-accueil-pour-le-mois-de-ramadan.ar.html",
+    "publishedAt": "2024-02-29"
+  },
+  {
+    "id": "le-merite-du-mois-de-chaabane",
+    "titre_fr": "LE MERITE DU MOIS DE CHAABANE",
+    "titre_ar": "فَضْلُ شَهْرِ شَعْبَانَ",
+    "url_fr": "sermons_html/le-merite-du-mois-de-chaabane.fr.html",
+    "url_ar": "sermons_html/le-merite-du-mois-de-chaabane.ar.html",
+    "publishedAt": "2024-02-15"
+  },
+  {
+    "id": "le-merite-et-les-regles-des-mosquees",
+    "titre_fr": "LE MERITE ET LES REGLES DES MOSQUEES",
+    "titre_ar": "فَضْلُ وَأَحْكَامُ الْمَسَاجِدِ",
+    "url_fr": "sermons_html/le-merite-et-les-regles-des-mosquees.fr.html",
+    "url_ar": "sermons_html/le-merite-et-les-regles-des-mosquees.ar.html",
+    "publishedAt": "2025-10-09"
+  },
+  {
+    "id": "le-mois-de-allah-al-muharram",
+    "titre_fr": "LE MOIS DE ALLAH, AL-MUHARRAM",
+    "titre_ar": "شَهْرُ اللهِ الْمُحَرَّمُ",
+    "url_fr": "sermons_html/le-mois-de-allah-al-muharram.fr.html",
+    "url_ar": "sermons_html/le-mois-de-allah-al-muharram.ar.html",
+    "publishedAt": "2024-03-04"
+  },
+  {
+    "id": "le-mois-de-chaban",
+    "titre_fr": "LE MOIS DE CHA‘BÂN",
+    "titre_ar": "شهر شعبان",
+    "url_fr": "sermons_html/le-mois-de-chaban.fr.html",
+    "url_ar": "sermons_html/le-mois-de-chaban.ar.html",
+    "publishedAt": "2026-01-14"
+  },
+  {
+    "id": "le-mois-de-la-semence",
+    "titre_fr": "LE MOIS DE LA SEMENCE",
+    "titre_ar": "شهر البذر",
+    "url_fr": "sermons_html/le-mois-de-la-semence.fr.html",
+    "url_ar": "sermons_html/le-mois-de-la-semence.ar.html",
+    "publishedAt": "2024-01-18"
+  },
+  {
+    "id": "le-mois-de-linvocation",
+    "titre_fr": "LE MOIS DE L’INVOCATION",
+    "titre_ar": "شهرُ الدُّعاء",
+    "url_fr": "sermons_html/le-mois-de-linvocation.fr.html",
+    "url_ar": "sermons_html/le-mois-de-linvocation.ar.html",
+    "publishedAt": "2026-03-05"
+  },
+  {
+    "id": "le-mois-de-muharram-et-le-jour-de-ashura",
+    "titre_fr": "LE MOIS DE MUHARRAM ET LE JOUR DE ASHURA",
+    "titre_ar": "شهر محرم ويوم عاشوراء.",
+    "url_fr": "sermons_html/le-mois-de-muharram-et-le-jour-de-ashura.fr.html",
+    "url_ar": "sermons_html/le-mois-de-muharram-et-le-jour-de-ashura.ar.html",
+    "publishedAt": "2024-03-04"
+  },
+  {
+    "id": "le-mois-dallah-al-mouharram",
+    "titre_fr": "LE MOIS D’ALLAH AL-MOUHARRAM",
+    "titre_ar": "شهر الله المحرم",
+    "url_fr": "sermons_html/le-mois-dallah-al-mouharram.fr.html",
+    "url_ar": "sermons_html/le-mois-dallah-al-mouharram.ar.html",
+    "publishedAt": "2025-06-28"
+  },
+  {
+    "id": "le-merite-de-laumone-sadaqa",
+    "titre_fr": "LE MÉRITE DE L’AUMÔNE (ṢADAQA)",
+    "titre_ar": "فضل الصدقة",
+    "url_fr": "sermons_html/le-merite-de-laumone-sadaqa.fr.html",
+    "url_ar": "sermons_html/le-merite-de-laumone-sadaqa.ar.html",
+    "publishedAt": "2026-04-15"
+  },
+  {
+    "id": "le-pacte-solennel",
+    "titre_fr": "LE PACTE SOLENNEL",
+    "titre_ar": "الْمِيثَاقُ الْغَلِيظُ",
+    "url_fr": "sermons_html/le-pacte-solennel.fr.html",
+    "url_ar": "sermons_html/le-pacte-solennel.ar.html",
+    "publishedAt": "2025-08-06"
+  },
+  {
+    "id": "le-pelerinage-est-une-obligation-pour-les-etres-humains",
+    "titre_fr": "LE PELERINAGE EST UNE OBLIGATION POUR LES ETRES HUMAINS",
+    "titre_ar": "الحَجُ فَرْضٌ عَلَى الأَنَامِ",
+    "url_fr": "sermons_html/le-pelerinage-est-une-obligation-pour-les-etres-humains.fr.html",
+    "url_ar": "sermons_html/le-pelerinage-est-une-obligation-pour-les-etres-humains.ar.html",
+    "publishedAt": "2025-05-15"
+  },
+  {
+    "id": "le-polytheisme-mineur-et-ses-formes",
+    "titre_fr": "LE POLYTHEISME MINEUR ET SES FORMES",
+    "titre_ar": "الشِّرْكُ_الْأَصْغَرُ_وَصُوَرُهُ",
+    "url_fr": "sermons_html/le-polytheisme-mineur-et-ses-formes.fr.html",
+    "url_ar": "sermons_html/le-polytheisme-mineur-et-ses-formes.ar.html",
+    "publishedAt": "2025-05-08"
+  },
+  {
+    "id": "le-prisonnier-la-langue",
+    "titre_fr": "LE PRISONNIER (La langue)",
+    "titre_ar": "السجين (اللسان)",
+    "url_fr": "sermons_html/le-prisonnier-la-langue.fr.html",
+    "url_ar": "sermons_html/le-prisonnier-la-langue.ar.html",
+    "publishedAt": "2024-07-31"
+  },
+  {
+    "id": "le-prochain-invite-le-mois-de-ramadan",
+    "titre_fr": "LE PROCHAIN INVITÉ (LE MOIS DE RAMADAN)",
+    "titre_ar": "الضيف القادم (شهر رمضان)",
+    "url_fr": "sermons_html/le-prochain-invite-le-mois-de-ramadan.fr.html",
+    "url_ar": "sermons_html/le-prochain-invite-le-mois-de-ramadan.ar.html",
+    "publishedAt": "2024-01-27"
+  },
+  {
+    "id": "le-ramadan-une-opportunite-de-liberation",
+    "titre_fr": "LE RAMADAN,  UNE OPPORTUNITÉ DE LIBÉRATION",
+    "titre_ar": "رمضان فرصة للتحرُّر",
+    "url_fr": "sermons_html/le-ramadan-une-opportunite-de-liberation.fr.html",
+    "url_ar": "sermons_html/le-ramadan-une-opportunite-de-liberation.ar.html",
+    "publishedAt": "2025-03-13"
+  },
+  {
+    "id": "le-report-la-procrastination",
+    "titre_fr": "LE REPORT (LA PROCRASTINATION)",
+    "titre_ar": "التسويف",
+    "url_fr": "sermons_html/le-report-la-procrastination.fr.html",
+    "url_ar": "sermons_html/le-report-la-procrastination.ar.html",
+    "publishedAt": "2025-11-13"
+  },
+  {
+    "id": "le-respect-des-aines",
+    "titre_fr": "LE RESPECT DES AÎNÉS",
+    "titre_ar": "توقير الكبير",
+    "url_fr": "sermons_html/le-respect-des-aines.fr.html",
+    "url_ar": "sermons_html/le-respect-des-aines.ar.html",
+    "publishedAt": "2024-10-10"
+  },
+  {
+    "id": "le-serment-bonnes-manieres-et-regles",
+    "titre_fr": "LE SERMENT, BONNES MANIERES ET REGLES",
+    "titre_ar": "الْيَمِينُ_آدَابٌ_وَأَحْكَامٌ",
+    "url_fr": "sermons_html/le-serment-bonnes-manieres-et-regles.fr.html",
+    "url_ar": "sermons_html/le-serment-bonnes-manieres-et-regles.ar.html",
+    "publishedAt": "2025-08-14"
+  },
+  {
+    "id": "le-silence",
+    "titre_fr": "LE SILENCE",
+    "titre_ar": "الصمت",
+    "url_fr": "sermons_html/le-silence.fr.html",
+    "url_ar": "sermons_html/le-silence.ar.html",
+    "publishedAt": "2025-06-11"
+  },
+  {
+    "id": "le-supplice-du-feu",
+    "titre_fr": "LE SUPPLICE DU FEU",
+    "titre_ar": "عذاب الحريق",
+    "url_fr": "sermons_html/le-supplice-du-feu.fr.html",
+    "url_ar": "sermons_html/le-supplice-du-feu.ar.html",
+    "publishedAt": "2025-01-16"
+  },
+  {
+    "id": "le-terrier-du-lezard",
+    "titre_fr": "LE TERRIER DU LÉZARD",
+    "titre_ar": "جُحرُ الضَّب",
+    "url_fr": "sermons_html/le-terrier-du-lezard.fr.html",
+    "url_ar": "sermons_html/le-terrier-du-lezard.ar.html",
+    "publishedAt": "2023-12-21"
+  },
+  {
+    "id": "le-tueur-lent",
+    "titre_fr": "LE TUEUR LENT",
+    "titre_ar": "القاتل البطيء",
+    "url_fr": "sermons_html/le-tueur-lent.fr.html",
+    "url_ar": "sermons_html/le-tueur-lent.ar.html",
+    "publishedAt": "2025-05-22"
+  },
+  {
+    "id": "le-visiteur-attendu",
+    "titre_fr": "LE VISITEUR ATTENDU",
+    "titre_ar": "الضَّيفُ القادم",
+    "url_fr": "sermons_html/le-visiteur-attendu.fr.html",
+    "url_ar": "sermons_html/le-visiteur-attendu.ar.html",
+    "publishedAt": "2026-02-12"
+  },
+  {
+    "id": "le-voleur-de-la-paresse",
+    "titre_fr": "LE VOLEUR DE LA PARESSE",
+    "titre_ar": "لص الكسل",
+    "url_fr": "sermons_html/le-voleur-de-la-paresse.fr.html",
+    "url_ar": "sermons_html/le-voleur-de-la-paresse.ar.html",
+    "publishedAt": "2024-02-08"
+  },
+  {
+    "id": "le-voyage-regles-et-ethique",
+    "titre_fr": "LE VOYAGE, REGLES ET ÉTHIQUE",
+    "titre_ar": "السَّفَرُ أَحْكَامٌ وَآدَابٌ",
+    "url_fr": "sermons_html/le-voyage-regles-et-ethique.fr.html",
+    "url_ar": "sermons_html/le-voyage-regles-et-ethique.ar.html",
+    "publishedAt": "2025-07-17"
+  },
+  {
+    "id": "le-danger-de-lusure-riba-sur-lindividu-et-la-societe-063112",
+    "titre_fr": "LE_DANGER_DE_L’USURE_RIBA_SUR_L’INDIVIDU_ET_LA_SOCIETE_063112",
+    "titre_ar": "خَطَرُ_الرِّبَا_عَلَى_الْفَرْدِ_وَالْمُجْتَمَعِ",
+    "url_fr": "sermons_html/le-danger-de-lusure-riba-sur-lindividu-et-la-societe-063112.fr.html",
+    "url_ar": "sermons_html/le-danger-de-lusure-riba-sur-lindividu-et-la-societe-063112.ar.html",
+    "publishedAt": "2025-10-16"
+  },
+  {
+    "id": "le-voyage-nocturne-et-l-ascension-lecons-et-exhortations",
+    "titre_fr": "LE_VOYAGE_NOCTURNE_ET_L'ASCENSION,_LEÇONS_ET_EXHORTATIONS",
+    "titre_ar": "الْإِسْرَاءُ_وَالْمِعْرَاجُ_دُرُوسٌ_وَعِظَاتٌ",
+    "url_fr": "sermons_html/le-voyage-nocturne-et-l-ascension-lecons-et-exhortations.fr.html",
+    "url_ar": "sermons_html/le-voyage-nocturne-et-l-ascension-lecons-et-exhortations.ar.html",
+    "publishedAt": "2025-01-23"
+  },
+  {
+    "id": "lecons-tirees-de-lhegire-prophetique",
+    "titre_fr": "LEÇONS TIREES DE L’HEGIRE PROPHETIQUE",
+    "titre_ar": "دُرُوسٌ_مِنَ_الْهِجْرَةِ_النَّبَوِيَّةِ",
+    "url_fr": "sermons_html/lecons-tirees-de-lhegire-prophetique.fr.html",
+    "url_ar": "sermons_html/lecons-tirees-de-lhegire-prophetique.ar.html",
+    "publishedAt": "2025-06-26"
+  },
+  {
+    "id": "les-actions-ne-sont-jugees-que-par-leurs-conclusions",
+    "titre_fr": "LES ACTIONS NE SONT JUGÉES QUE PAR LEURS CONCLUSIONS",
+    "titre_ar": "إنما الأعمال بالخواتيم",
+    "url_fr": "sermons_html/les-actions-ne-sont-jugees-que-par-leurs-conclusions.fr.html",
+    "url_ar": "sermons_html/les-actions-ne-sont-jugees-que-par-leurs-conclusions.ar.html",
+    "publishedAt": "2024-01-28"
+  },
+  {
+    "id": "les-annulatifs-de-lislam",
+    "titre_fr": "LES ANNULATIFS DE L’ISLAM",
+    "titre_ar": "نواقض الإسلام",
+    "url_fr": "sermons_html/les-annulatifs-de-lislam.fr.html",
+    "url_ar": "sermons_html/les-annulatifs-de-lislam.ar.html",
+    "publishedAt": "2025-08-21"
+  },
+  {
+    "id": "les-avantages-des-regles-juridiques-religieuses",
+    "titre_fr": "LES AVANTAGES DES REGLES JURIDIQUES RELIGIEUSES",
+    "titre_ar": "محاسن الأحكام الشرعية",
+    "url_fr": "sermons_html/les-avantages-des-regles-juridiques-religieuses.fr.html",
+    "url_ar": "sermons_html/les-avantages-des-regles-juridiques-religieuses.ar.html",
+    "publishedAt": "2023-12-01"
+  },
+  {
+    "id": "les-bonnes-uvres",
+    "titre_fr": "LES BONNES ŒUVRES",
+    "titre_ar": "أعمالٌ صالحةٌ",
+    "url_fr": "sermons_html/les-bonnes-uvres.fr.html",
+    "url_ar": "sermons_html/les-bonnes-uvres.ar.html",
+    "publishedAt": "2024-12-05"
+  },
+  {
+    "id": "les-causes-de-laffranchissement-du-feu",
+    "titre_fr": "LES CAUSES DE L’AFFRANCHISSEMENT DU FEU",
+    "titre_ar": "مِن_أَسبَابِ_العِتْقِ_مِن_النَّارِ",
+    "url_fr": "sermons_html/les-causes-de-laffranchissement-du-feu.fr.html",
+    "url_ar": "sermons_html/les-causes-de-laffranchissement-du-feu.ar.html",
+    "publishedAt": "2026-03-25"
+  },
+  {
+    "id": "les-causes-de-linsouciance",
+    "titre_fr": "LES CAUSES DE L’INSOUCIANCE",
+    "titre_ar": "أسباب الغفلة",
+    "url_fr": "sermons_html/les-causes-de-linsouciance.fr.html",
+    "url_ar": "sermons_html/les-causes-de-linsouciance.ar.html",
+    "publishedAt": "2024-11-28"
+  },
+  {
+    "id": "les-causes-du-succes",
+    "titre_fr": "LES CAUSES DU SUCCES",
+    "titre_ar": "أسباب الفلاح",
+    "url_fr": "sermons_html/les-causes-du-succes.fr.html",
+    "url_ar": "sermons_html/les-causes-du-succes.ar.html",
+    "publishedAt": "2024-10-03"
+  },
+  {
+    "id": "les-compagnons",
+    "titre_fr": "LES COMPAGNONS",
+    "titre_ar": "الصحابة",
+    "url_fr": "sermons_html/les-compagnons.fr.html",
+    "url_ar": "sermons_html/les-compagnons.ar.html",
+    "publishedAt": "2024-08-22"
+  },
+  {
+    "id": "les-delices-du-paradis",
+    "titre_fr": "LES DELICES DU PARADIS",
+    "titre_ar": "نعيـمُ الجَنَّة",
+    "url_fr": "sermons_html/les-delices-du-paradis.fr.html",
+    "url_ar": "sermons_html/les-delices-du-paradis.ar.html",
+    "publishedAt": "2025-08-06"
+  },
+  {
+    "id": "les-dix-dernieres-nuits-une-richesse-et-une-recompense",
+    "titre_fr": "LES DIX DERNIÈRES NUITS, UNE RICHESSE ET UNE RÉCOMPENSE",
+    "titre_ar": "ليالي العشر غنيمة واجر",
+    "url_fr": "sermons_html/les-dix-dernieres-nuits-une-richesse-et-une-recompense.fr.html",
+    "url_ar": "sermons_html/les-dix-dernieres-nuits-une-richesse-et-une-recompense.ar.html",
+    "publishedAt": "2024-02-18"
+  },
+  {
+    "id": "les-dix-premiers-jours-de-dhoul-hijjah",
+    "titre_fr": "LES DIX PREMIERS JOURS DE DHOUL-HIJJAH",
+    "titre_ar": "العَشْرُ_الأُوَلُ_مِنْ_ذِي_الحِجَّةِ",
+    "url_fr": "sermons_html/les-dix-premiers-jours-de-dhoul-hijjah.fr.html",
+    "url_ar": "sermons_html/les-dix-premiers-jours-de-dhoul-hijjah.ar.html",
+    "publishedAt": "2026-05-14"
+  },
+  {
+    "id": "les-droits-des-heritiers",
+    "titre_fr": "LES DROITS DES HERITIERS",
+    "titre_ar": "حقوق الورثة",
+    "url_fr": "sermons_html/les-droits-des-heritiers.fr.html",
+    "url_ar": "sermons_html/les-droits-des-heritiers.ar.html",
+    "publishedAt": "2025-01-02"
+  },
+  {
+    "id": "les-demons-de-ramadan",
+    "titre_fr": "LES DÉMONS DE RAMADAN",
+    "titre_ar": "شياطِـين رمضان",
+    "url_fr": "sermons_html/les-demons-de-ramadan.fr.html",
+    "url_ar": "sermons_html/les-demons-de-ramadan.ar.html",
+    "publishedAt": "2025-03-05"
+  },
+  {
+    "id": "les-effets-de-la-misericorde-dallah",
+    "titre_fr": "LES EFFETS DE LA MISERICORDE D’ALLAH",
+    "titre_ar": "آثَارُ رَحْمَةِ اللهِ",
+    "url_fr": "sermons_html/les-effets-de-la-misericorde-dallah.fr.html",
+    "url_ar": "sermons_html/les-effets-de-la-misericorde-dallah.ar.html",
+    "publishedAt": "2024-11-28"
+  },
+  {
+    "id": "les-fleaux-des-rumeurs",
+    "titre_fr": "LES FLEAUX DES RUMEURS",
+    "titre_ar": "آفات الشائعات",
+    "url_fr": "sermons_html/les-fleaux-des-rumeurs.fr.html",
+    "url_ar": "sermons_html/les-fleaux-des-rumeurs.ar.html",
+    "publishedAt": "2025-07-10"
+  },
+  {
+    "id": "les-fruits-des-bonnes-uvres",
+    "titre_fr": "LES FRUITS DES BONNES ŒUVRES",
+    "titre_ar": "ثَمَرَاتُ الْعَمَلِ الصَّالِحِ",
+    "url_fr": "sermons_html/les-fruits-des-bonnes-uvres.fr.html",
+    "url_ar": "sermons_html/les-fruits-des-bonnes-uvres.ar.html",
+    "publishedAt": "2026-05-28"
+  },
+  {
+    "id": "les-graces-cachees-de-dieu-dans-lepreuve",
+    "titre_fr": "LES GRÂCES CACHÉES DE DIEU DANS L’ÉPREUVE",
+    "titre_ar": "من ألطاف الله تعالى في الابتلاء",
+    "url_fr": "sermons_html/les-graces-cachees-de-dieu-dans-lepreuve.fr.html",
+    "url_ar": "sermons_html/les-graces-cachees-de-dieu-dans-lepreuve.ar.html",
+    "publishedAt": "2025-12-11"
+  },
+  {
+    "id": "les-houris-aux-grands-yeux",
+    "titre_fr": "LES HOURIS AUX GRANDS YEUX",
+    "titre_ar": "الحُـورُ العِين",
+    "url_fr": "sermons_html/les-houris-aux-grands-yeux.fr.html",
+    "url_ar": "sermons_html/les-houris-aux-grands-yeux.ar.html",
+    "publishedAt": "2026-01-01"
+  },
+  {
+    "id": "les-hypocrites",
+    "titre_fr": "LES HYPOCRITES",
+    "titre_ar": "المنافقون",
+    "url_fr": "sermons_html/les-hypocrites.fr.html",
+    "url_ar": "sermons_html/les-hypocrites.ar.html",
+    "publishedAt": "2024-11-28"
+  },
+  {
+    "id": "les-illusions-de-la-peur",
+    "titre_fr": "LES ILLUSIONS DE LA PEUR",
+    "titre_ar": "أوهام الخوف",
+    "url_fr": "sermons_html/les-illusions-de-la-peur.fr.html",
+    "url_ar": "sermons_html/les-illusions-de-la-peur.ar.html",
+    "publishedAt": "2023-12-07"
+  },
+  {
+    "id": "les-maux-de-lame",
+    "titre_fr": "LES MAUX DE L’AME",
+    "titre_ar": "شرورُ النفسِ",
+    "url_fr": "sermons_html/les-maux-de-lame.fr.html",
+    "url_ar": "sermons_html/les-maux-de-lame.ar.html",
+    "publishedAt": "2024-10-31"
+  },
+  {
+    "id": "les-meilleures-generations",
+    "titre_fr": "LES MEILLEURES GENERATIONS",
+    "titre_ar": "خَيرُ القُرُونِ",
+    "url_fr": "sermons_html/les-meilleures-generations.fr.html",
+    "url_ar": "sermons_html/les-meilleures-generations.ar.html",
+    "publishedAt": "2025-07-10"
+  },
+  {
+    "id": "les-meilleurs-jours-du-monde",
+    "titre_fr": "LES MEILLEURS JOURS DU MONDE",
+    "titre_ar": "أفضل ايام الدنيا",
+    "url_fr": "sermons_html/les-meilleurs-jours-du-monde.fr.html",
+    "url_ar": "sermons_html/les-meilleurs-jours-du-monde.ar.html",
+    "publishedAt": "2024-01-29"
+  },
+  {
+    "id": "les-merites-des-dix-jours-de-dhoul-hijja",
+    "titre_fr": "LES MERITES DES DIX JOURS DE DHOUL-HIJJA",
+    "titre_ar": "فَضَائِلُ_الْعَشْرِ_مِنْ_ذِي_الْحِجَّةِ",
+    "url_fr": "sermons_html/les-merites-des-dix-jours-de-dhoul-hijja.fr.html",
+    "url_ar": "sermons_html/les-merites-des-dix-jours-de-dhoul-hijja.ar.html",
+    "publishedAt": "2025-05-22"
+  },
+  {
+    "id": "les-merveilles-de-la-maladie",
+    "titre_fr": "LES MERVEILLES DE LA MALADIE",
+    "titre_ar": "عجائبُ المـرَض",
+    "url_fr": "sermons_html/les-merveilles-de-la-maladie.fr.html",
+    "url_ar": "sermons_html/les-merveilles-de-la-maladie.ar.html",
+    "publishedAt": "2025-02-20"
+  },
+  {
+    "id": "les-merites-et-les-regles-de-linclinaison",
+    "titre_fr": "LES MÉRITES ET LES RÈGLES DE L’INCLINAISON",
+    "titre_ar": "الركوع فضائله وأحكامه",
+    "url_fr": "sermons_html/les-merites-et-les-regles-de-linclinaison.fr.html",
+    "url_ar": "sermons_html/les-merites-et-les-regles-de-linclinaison.ar.html",
+    "publishedAt": "2024-02-03"
+  },
+  {
+    "id": "les-mosquees-dallah",
+    "titre_fr": "LES MOSQUEES D’ALLAH",
+    "titre_ar": "مساجد الله",
+    "url_fr": "sermons_html/les-mosquees-dallah.fr.html",
+    "url_ar": "sermons_html/les-mosquees-dallah.ar.html",
+    "publishedAt": "2024-11-07"
+  },
+  {
+    "id": "les-moyens-legaux-et-religieux-qui-favorisent-la-subsistance",
+    "titre_fr": "LES MOYENS LEGAUX ET RELIGIEUX QUI FAVORISENT LA SUBSISTANCE",
+    "titre_ar": "الأسباب الشرعية الجالبة للرزق",
+    "url_fr": "sermons_html/les-moyens-legaux-et-religieux-qui-favorisent-la-subsistance.fr.html",
+    "url_ar": "sermons_html/les-moyens-legaux-et-religieux-qui-favorisent-la-subsistance.ar.html",
+    "publishedAt": "2023-12-06"
+  },
+  {
+    "id": "les-merites-de-chaban",
+    "titre_fr": "LES MÉRITES DE CHA‘BÂN",
+    "titre_ar": "فَضْلُ شَعْبَانَ",
+    "url_fr": "sermons_html/les-merites-de-chaban.fr.html",
+    "url_ar": "sermons_html/les-merites-de-chaban.ar.html",
+    "publishedAt": "2025-02-06"
+  },
+  {
+    "id": "les-merites-de-la-zakat",
+    "titre_fr": "LES MÉRITES DE LA ZAKAT",
+    "titre_ar": "محاسن الزكاة",
+    "url_fr": "sermons_html/les-merites-de-la-zakat.fr.html",
+    "url_ar": "sermons_html/les-merites-de-la-zakat.ar.html",
+    "publishedAt": "2026-02-12"
+  },
+  {
+    "id": "les-merites-des-dix-premiers-jours-de-dhoul-hijja",
+    "titre_fr": "LES MÉRITES DES DIX PREMIERS JOURS DE DHOUL-HIJJA",
+    "titre_ar": "فضل عشر ذي الحجة",
+    "url_fr": "sermons_html/les-merites-des-dix-premiers-jours-de-dhoul-hijja.fr.html",
+    "url_ar": "sermons_html/les-merites-des-dix-premiers-jours-de-dhoul-hijja.ar.html",
+    "publishedAt": "2024-01-29"
+  },
+  {
+    "id": "les-objectifs-du-jeune",
+    "titre_fr": "LES OBJECTIFS DU JEÛNE",
+    "titre_ar": "مَقَاصِدُ الصِّيَامِ",
+    "url_fr": "sermons_html/les-objectifs-du-jeune.fr.html",
+    "url_ar": "sermons_html/les-objectifs-du-jeune.ar.html",
+    "publishedAt": "2025-03-06"
+  },
+  {
+    "id": "les-personnes-chastes-et-les-mendiants",
+    "titre_fr": "LES PERSONNES CHASTES ET LES MENDIANTS",
+    "titre_ar": "المُتَعَفِّفُونَ_والمُتَسَوِّلُون",
+    "url_fr": "sermons_html/les-personnes-chastes-et-les-mendiants.fr.html",
+    "url_ar": "sermons_html/les-personnes-chastes-et-les-mendiants.ar.html",
+    "publishedAt": "2025-02-13"
+  },
+  {
+    "id": "les-portes-du-paradis-1",
+    "titre_fr": "LES PORTES DU PARADIS(1)",
+    "titre_ar": "أبوابُ الجنَّة",
+    "url_fr": "sermons_html/les-portes-du-paradis-1.fr.html",
+    "url_ar": "sermons_html/les-portes-du-paradis-1.ar.html",
+    "publishedAt": "2025-01-23"
+  },
+  {
+    "id": "les-quatre-questions",
+    "titre_fr": "LES QUATRE QUESTIONS",
+    "titre_ar": "الأسئلةُ الأربعةُ",
+    "url_fr": "sermons_html/les-quatre-questions.fr.html",
+    "url_ar": "sermons_html/les-quatre-questions.ar.html",
+    "publishedAt": "2024-08-22"
+  },
+  {
+    "id": "les-questions-de-lau-dela",
+    "titre_fr": "LES QUESTIONS DE L’AU-DELÀ",
+    "titre_ar": "أسئلة الآخرة",
+    "url_fr": "sermons_html/les-questions-de-lau-dela.fr.html",
+    "url_ar": "sermons_html/les-questions-de-lau-dela.ar.html",
+    "publishedAt": "2025-06-19"
+  },
+  {
+    "id": "les-raisons-du-bonheur",
+    "titre_fr": "LES RAISONS DU BONHEUR",
+    "titre_ar": "أسباب السعادة",
+    "url_fr": "sermons_html/les-raisons-du-bonheur.fr.html",
+    "url_ar": "sermons_html/les-raisons-du-bonheur.ar.html",
+    "publishedAt": "2024-02-11"
+  },
+  {
+    "id": "les-regles-relatives-au-sacrifice",
+    "titre_fr": "LES REGLES RELATIVES AU SACRIFICE",
+    "titre_ar": "أَحْكَامُ الْأُضْحِيَّةِ",
+    "url_fr": "sermons_html/les-regles-relatives-au-sacrifice.fr.html",
+    "url_ar": "sermons_html/les-regles-relatives-au-sacrifice.ar.html",
+    "publishedAt": "2025-05-28"
+  },
+  {
+    "id": "les-regles-de-conduite-pour-les-reunions",
+    "titre_fr": "LES RÈGLES DE CONDUITE POUR LES RÉUNIONS",
+    "titre_ar": "آداب المجالس",
+    "url_fr": "sermons_html/les-regles-de-conduite-pour-les-reunions.fr.html",
+    "url_ar": "sermons_html/les-regles-de-conduite-pour-les-reunions.ar.html",
+    "publishedAt": "2024-02-10"
+  },
+  {
+    "id": "les-rumeurs",
+    "titre_fr": "LES RUMEURS",
+    "titre_ar": "الشائعات",
+    "url_fr": "sermons_html/les-rumeurs.fr.html",
+    "url_ar": "sermons_html/les-rumeurs.ar.html",
+    "publishedAt": "2023-12-21"
+  },
+  {
+    "id": "les-souhaits-des-morts",
+    "titre_fr": "LES SOUHAITS DES MORTS",
+    "titre_ar": "أُمنياتُ الأموات",
+    "url_fr": "sermons_html/les-souhaits-des-morts.fr.html",
+    "url_ar": "sermons_html/les-souhaits-des-morts.ar.html",
+    "publishedAt": "2024-11-13"
+  },
+  {
+    "id": "les-visions-et-les-reves",
+    "titre_fr": "LES VISIONS ET LES REVES",
+    "titre_ar": "الرؤى والأحلام",
+    "url_fr": "sermons_html/les-visions-et-les-reves.fr.html",
+    "url_ar": "sermons_html/les-visions-et-les-reves.ar.html",
+    "publishedAt": "2024-09-19"
+  },
+  {
+    "id": "les-dix-dernieres-nuits-de-ramadan-une-aubaine-pour-les-devots",
+    "titre_fr": "LES_DIX_DERNIÈRES_NUITS_DE_RAMADAN,_UNE_AUBAINE_POUR_LES_DÉVOTS",
+    "titre_ar": "الْعَشْرُ_الأَوَاخِرُ_مِنْ_رَمَضَانَ_غَنِيمَةُ_الْعَابِدِينَ",
+    "url_fr": "sermons_html/les-dix-dernieres-nuits-de-ramadan-une-aubaine-pour-les-devots.fr.html",
+    "url_ar": "sermons_html/les-dix-dernieres-nuits-de-ramadan-une-aubaine-pour-les-devots.ar.html",
+    "publishedAt": "2024-02-18"
+  },
+  {
+    "id": "les-enseignements-de-la-sourate-al-qaria-les-horreurs-du-jour",
+    "titre_fr": "LES_ENSEIGNEMENTS_DE_LA_SOURATE_AL_QĀRI‘A,_LES_HORREURS_DU_JOUR",
+    "titre_ar": "دُرُوسُ_سُورَةِ_الْقَارِعَةِ_أَهْوَالُ_الْقِيَامَةِ_وَمِيزَانُ_الْأَعْمَالِ",
+    "url_fr": "sermons_html/les-enseignements-de-la-sourate-al-qaria-les-horreurs-du-jour.fr.html",
+    "url_ar": "sermons_html/les-enseignements-de-la-sourate-al-qaria-les-horreurs-du-jour.ar.html",
+    "publishedAt": "2026-01-08"
+  },
+  {
+    "id": "les-fondements-legiferes-pour-batir-une-famille-musulmane-reussie",
+    "titre_fr": "LES_FONDEMENTS_LÉGIFÉRÉS_POUR_BÂTIR_UNE_FAMILLE_MUSULMANE_RÉUSSIE",
+    "titre_ar": "الأُسُسُ_الشَّرْعِيَّةُ_لِبِنَاءِ_أُسْرَةٍ_مُسْلِمَةٍ_نَاجِحَةٍ",
+    "url_fr": "sermons_html/les-fondements-legiferes-pour-batir-une-famille-musulmane-reussie.fr.html",
+    "url_ar": "sermons_html/les-fondements-legiferes-pour-batir-une-famille-musulmane-reussie.ar.html",
+    "publishedAt": "2025-12-17"
+  },
+  {
+    "id": "les-merites-du-suivi-de-la-sunna-et-les-principes-de-sa-mise-en",
+    "titre_fr": "LES_MÉRITES_DU_SUIVI_DE_LA_SUNNA_ET_LES_PRINCIPES_DE_SA_MISE_EN",
+    "titre_ar": "فَضَائِلُ_اتِّبَاعِ_السُّنَّةِ_وَمَبَادِئُ_تَحْقِيقِهَا",
+    "url_fr": "sermons_html/les-merites-du-suivi-de-la-sunna-et-les-principes-de-sa-mise-en.fr.html",
+    "url_ar": "sermons_html/les-merites-du-suivi-de-la-sunna-et-les-principes-de-sa-mise-en.ar.html",
+    "publishedAt": "2025-12-17"
+  },
+  {
+    "id": "les-regles-du-passage-de-la-main-mouillee-sur-les-chaussures",
+    "titre_fr": "LES_RÈGLES_DU_PASSAGE_DE_LA_MAIN_MOUILLEE_SUR_LES_CHAUSSURES",
+    "titre_ar": "أحكام المسح",
+    "url_fr": "sermons_html/les-regles-du-passage-de-la-main-mouillee-sur-les-chaussures.fr.html",
+    "url_ar": "sermons_html/les-regles-du-passage-de-la-main-mouillee-sur-les-chaussures.ar.html",
+    "publishedAt": "2023-12-29"
+  },
+  {
+    "id": "les-risques-lies-a-la-tentation-des-femmes-et-la-gravite-du-crime",
+    "titre_fr": "LES_RISQUES_LIES_A_LA_TENTATION_DES_FEMMES_ET_LA_GRAVITE_DU_CRIME",
+    "titre_ar": "خَطَرُ_النِّسَاءِ_وَعِظَمُ_جَرِيمَةِ_الزِّنَا",
+    "url_fr": "sermons_html/les-risques-lies-a-la-tentation-des-femmes-et-la-gravite-du-crime.fr.html",
+    "url_ar": "sermons_html/les-risques-lies-a-la-tentation-des-femmes-et-la-gravite-du-crime.ar.html",
+    "publishedAt": "2024-02-01"
+  },
+  {
+    "id": "lecons-et-bienfaits-du-recit-de-joraij-l-adorateur",
+    "titre_fr": "LEÇONS ET BIENFAITS DU RÉCIT DE JORAÏJ L'ADORATEUR",
+    "titre_ar": "عِبَرٌ_وَفَوَائِدُ_مِنْ_قِصَّةِ_جُرَيْجٍ_الْعَابِدِ",
+    "url_fr": "sermons_html/lecons-et-bienfaits-du-recit-de-joraij-l-adorateur.fr.html",
+    "url_ar": "sermons_html/lecons-et-bienfaits-du-recit-de-joraij-l-adorateur.ar.html",
+    "publishedAt": "2025-01-09"
+  },
+  {
+    "id": "logement-a-louer",
+    "titre_fr": "LOGEMENT À LOUER",
+    "titre_ar": "منزلٌ للإيجار",
+    "url_fr": "sermons_html/logement-a-louer.fr.html",
+    "url_ar": "sermons_html/logement-a-louer.ar.html",
+    "publishedAt": "2025-11-27"
+  },
+  {
+    "id": "ladieu-a-ramadan",
+    "titre_fr": "L’ADIEU A RAMADAN",
+    "titre_ar": "وَدَاعُ رَمَضَانَ",
+    "url_fr": "sermons_html/ladieu-a-ramadan.fr.html",
+    "url_ar": "sermons_html/ladieu-a-ramadan.ar.html",
+    "publishedAt": "2025-03-27"
+  },
+  {
+    "id": "ladoration-par-la-meditation",
+    "titre_fr": "L’ADORATION PAR LA MÉDITATION",
+    "titre_ar": "عِبَادَةُ التَّفَكُّرِ",
+    "url_fr": "sermons_html/ladoration-par-la-meditation.fr.html",
+    "url_ar": "sermons_html/ladoration-par-la-meditation.ar.html",
+    "publishedAt": "2026-01-29"
+  },
+  {
+    "id": "lambassadeur-le-mois-de-sha-ban",
+    "titre_fr": "L’AMBASSADEUR (LE MOIS DE SHA'BAN)",
+    "titre_ar": "السفير (شهر شعبان)",
+    "url_fr": "sermons_html/lambassadeur-le-mois-de-sha-ban.fr.html",
+    "url_ar": "sermons_html/lambassadeur-le-mois-de-sha-ban.ar.html",
+    "publishedAt": "2024-02-15"
+  },
+  {
+    "id": "lambition-elevee",
+    "titre_fr": "L’AMBITION ELEVEE",
+    "titre_ar": "الهمَّة العالية",
+    "url_fr": "sermons_html/lambition-elevee.fr.html",
+    "url_ar": "sermons_html/lambition-elevee.ar.html",
+    "publishedAt": "2025-05-08"
+  },
+  {
+    "id": "lami-dans-la-solitude",
+    "titre_fr": "L’AMI DANS LA SOLITUDE",
+    "titre_ar": "أَنِيسُ الوَحشَة",
+    "url_fr": "sermons_html/lami-dans-la-solitude.fr.html",
+    "url_ar": "sermons_html/lami-dans-la-solitude.ar.html",
+    "publishedAt": "2025-06-11"
+  },
+  {
+    "id": "lamour-dallah-la-lanterne-des-adorateurs",
+    "titre_fr": "L’AMOUR D’ALLAH, LA LANTERNE DES ADORATEURS",
+    "titre_ar": "محبةُ اللهِ سراجُ العابدِينَ",
+    "url_fr": "sermons_html/lamour-dallah-la-lanterne-des-adorateurs.fr.html",
+    "url_ar": "sermons_html/lamour-dallah-la-lanterne-des-adorateurs.ar.html",
+    "publishedAt": "2026-03-12"
+  },
+  {
+    "id": "lamour-du-prophete-entre-suivre-la-tradition-et-innover",
+    "titre_fr": "L’AMOUR_DU_PROPHETE_ﷺ_ENTRE_SUIVRE_LA_TRADITION_ET_INNOVER",
+    "titre_ar": "مَحَبَّةُ_النَّبِيِّ_صلى_الله_عليه_وسلم_بَيْنَ_الِاتِّبَاعِ_والِابْتِدَاعِ",
+    "url_fr": "sermons_html/lamour-du-prophete-entre-suivre-la-tradition-et-innover.fr.html",
+    "url_ar": "sermons_html/lamour-du-prophete-entre-suivre-la-tradition-et-innover.ar.html",
+    "publishedAt": "2025-09-03"
+  },
+  {
+    "id": "lappel-a-lusage-de-lintelligence-artificielle",
+    "titre_fr": "L’APPEL À L’USAGE DE L’INTELLIGENCE ARTIFICIELLE",
+    "titre_ar": "الدَّاعِي_لاِسْتِخْدَامِ_الذَّكَاءِ_الاصِّطِنَاعِيِّ",
+    "url_fr": "sermons_html/lappel-a-lusage-de-lintelligence-artificielle.fr.html",
+    "url_ar": "sermons_html/lappel-a-lusage-de-lintelligence-artificielle.ar.html",
+    "publishedAt": "2025-07-24"
+  },
+  {
+    "id": "larbre-de-lamour",
+    "titre_fr": "L’ARBRE DE L’AMOUR",
+    "titre_ar": "شجـرة المحبَّة",
+    "url_fr": "sermons_html/larbre-de-lamour.fr.html",
+    "url_ar": "sermons_html/larbre-de-lamour.ar.html",
+    "publishedAt": "2025-11-06"
+  },
+  {
+    "id": "lattachement-a-la-sunna",
+    "titre_fr": "L’ATTACHEMENT A LA SUNNA",
+    "titre_ar": "الاعتصام بالسنة",
+    "url_fr": "sermons_html/lattachement-a-la-sunna.fr.html",
+    "url_ar": "sermons_html/lattachement-a-la-sunna.ar.html",
+    "publishedAt": "2024-09-12"
+  },
+  {
+    "id": "lattention-de-lislam-envers-la-femme",
+    "titre_fr": "L’ATTENTION DE L’ISLAM ENVERS LA FEMME",
+    "titre_ar": "عناية الإسلام بالمرأة",
+    "url_fr": "sermons_html/lattention-de-lislam-envers-la-femme.fr.html",
+    "url_ar": "sermons_html/lattention-de-lislam-envers-la-femme.ar.html",
+    "publishedAt": "2025-12-11"
+  },
+  {
+    "id": "leducation-des-enfants-un-depot-et-une-responsabilite",
+    "titre_fr": "L’EDUCATION DES ENFANTS, UN DEPOT ET UNE RESPONSABILITE",
+    "titre_ar": "تَرْبِيَةُ_الْأَوْلَادِ_أَمَانَةٌ_وَمَسْؤُولِيَّةٌ",
+    "url_fr": "sermons_html/leducation-des-enfants-un-depot-et-une-responsabilite.fr.html",
+    "url_ar": "sermons_html/leducation-des-enfants-un-depot-et-une-responsabilite.ar.html",
+    "publishedAt": "2025-08-21"
+  },
+  {
+    "id": "lexces-dans-les-festins",
+    "titre_fr": "L’EXCES DANS LES FESTINS",
+    "titre_ar": "الإسراف في الولائم",
+    "url_fr": "sermons_html/lexces-dans-les-festins.fr.html",
+    "url_ar": "sermons_html/lexces-dans-les-festins.ar.html",
+    "publishedAt": "2025-04-17"
+  },
+  {
+    "id": "leducation-des-enfants-en-islam",
+    "titre_fr": "L’ÉDUCATION DES ENFANTS EN ISLAM",
+    "titre_ar": "تَرْبِيَةِ_الأَوْلَادِ_فِي_الإِسْلَامِ",
+    "url_fr": "sermons_html/leducation-des-enfants-en-islam.fr.html",
+    "url_ar": "sermons_html/leducation-des-enfants-en-islam.ar.html",
+    "publishedAt": "2023-11-22"
+  },
+  {
+    "id": "lhomme-entre-le-succes-et-l-abandon",
+    "titre_fr": "L’HOMME ENTRE LE SUCCÈS ET L'ABANDON",
+    "titre_ar": "الْإِنْسَانُ_بَيْنَ_التَّوْفِيقِ_وَالْخِذْلَانِ",
+    "url_fr": "sermons_html/lhomme-entre-le-succes-et-l-abandon.fr.html",
+    "url_ar": "sermons_html/lhomme-entre-le-succes-et-l-abandon.ar.html",
+    "publishedAt": "2025-04-09"
+  },
+  {
+    "id": "lhomme-metamorphose-le-danger-de-contourner-la-loi-dallah",
+    "titre_fr": "L’HOMME_METAMORPHOSE_LE_DANGER_DE_CONTOURNER_LA_LOI_D’ALLAH",
+    "titre_ar": "الإنسان_الممسوخ_خطورةُ_الاحتيال_على_الشَّرع_1",
+    "url_fr": "sermons_html/lhomme-metamorphose-le-danger-de-contourner-la-loi-dallah.fr.html",
+    "url_ar": "sermons_html/lhomme-metamorphose-le-danger-de-contourner-la-loi-dallah.ar.html",
+    "publishedAt": "2026-06-04"
+  },
+  {
+    "id": "lhypocrisie-ses-dangers-et-son-remede",
+    "titre_fr": "L’HYPOCRISIE,  SES DANGERS ET SON REMEDE",
+    "titre_ar": "النِّفَاقُ ضَرَرُهُ وَعِلَاجُهُ",
+    "url_fr": "sermons_html/lhypocrisie-ses-dangers-et-son-remede.fr.html",
+    "url_ar": "sermons_html/lhypocrisie-ses-dangers-et-son-remede.ar.html",
+    "publishedAt": "2025-02-13"
+  },
+  {
+    "id": "lincitation-a-profiter-de-ce-quil-reste-des-dix-jours-de-dhoul",
+    "titre_fr": "L’INCITATION_A_PROFITER_DE_CE_QU’IL_RESTE_DES_DIX_JOURS_DE_DHOUL",
+    "titre_ar": "الحثُّ_على_اغتنامِ_ما_تَبَقَّى_من_عشرِ_ذي_الحجة_ومنها_يوم_عرفةَ",
+    "url_fr": "sermons_html/lincitation-a-profiter-de-ce-quil-reste-des-dix-jours-de-dhoul.fr.html",
+    "url_ar": "sermons_html/lincitation-a-profiter-de-ce-quil-reste-des-dix-jours-de-dhoul.ar.html",
+    "publishedAt": "2026-05-21"
+  },
+  {
+    "id": "lintelligence-artificielle-definition-avantages-et-dangers",
+    "titre_fr": "L’INTELLIGENCE_ARTIFICIELLE,_DÉFINITION,_AVANTAGES_ET_DANGERS",
+    "titre_ar": "الذَّكَاءُ_الاِصْطِنَاعِيُّ_تَعْرِيفُهُ_وَفَوَائِدُهُ_وَخَطَرُهُ",
+    "url_fr": "sermons_html/lintelligence-artificielle-definition-avantages-et-dangers.fr.html",
+    "url_ar": "sermons_html/lintelligence-artificielle-definition-avantages-et-dangers.ar.html",
+    "publishedAt": "2025-07-24"
+  },
+  {
+    "id": "lintimite-avec-allah",
+    "titre_fr": "L’INTIMITE AVEC ALLAH",
+    "titre_ar": "الأنس بالله",
+    "url_fr": "sermons_html/lintimite-avec-allah.fr.html",
+    "url_ar": "sermons_html/lintimite-avec-allah.ar.html",
+    "publishedAt": "2024-02-17"
+  },
+  {
+    "id": "linvite-attendu",
+    "titre_fr": "L’INVITE ATTENDU",
+    "titre_ar": "الضيف القادم",
+    "url_fr": "sermons_html/linvite-attendu.fr.html",
+    "url_ar": "sermons_html/linvite-attendu.ar.html",
+    "publishedAt": "2025-02-27"
+  },
+  {
+    "id": "linvocation-est-larme-du-croyant",
+    "titre_fr": "L’INVOCATION EST L’ARME DU CROYANT",
+    "titre_ar": "الدعاء سلاح المؤمن",
+    "url_fr": "sermons_html/linvocation-est-larme-du-croyant.fr.html",
+    "url_ar": "sermons_html/linvocation-est-larme-du-croyant.ar.html",
+    "publishedAt": "2024-08-29"
+  },
+  {
+    "id": "lobeissance-aux-parents",
+    "titre_fr": "L’OBÉISSANCE AUX PARENTS",
+    "titre_ar": "بِرُّ الوالدَين",
+    "url_fr": "sermons_html/lobeissance-aux-parents.fr.html",
+    "url_ar": "sermons_html/lobeissance-aux-parents.ar.html",
+    "publishedAt": "2024-08-14"
+  },
+  {
+    "id": "loptimisme-dans-la-vie-du-musulman",
+    "titre_fr": "L’OPTIMISME DANS LA VIE DU MUSULMAN",
+    "titre_ar": "التَّفَاؤُلُ_فِي_حَيَاةِ_الْمُسْلِمِ",
+    "url_fr": "sermons_html/loptimisme-dans-la-vie-du-musulman.fr.html",
+    "url_ar": "sermons_html/loptimisme-dans-la-vie-du-musulman.ar.html",
+    "publishedAt": "2026-04-23"
+  },
+  {
+    "id": "mangeurs-de-feu-mangeurs-de-haram",
+    "titre_fr": "MANGEURS DE FEU (MANGEURS DE HARAM)",
+    "titre_ar": "أكلة النار (آكلوا الحرام)",
+    "url_fr": "sermons_html/mangeurs-de-feu-mangeurs-de-haram.fr.html",
+    "url_ar": "sermons_html/mangeurs-de-feu-mangeurs-de-haram.ar.html",
+    "publishedAt": "2024-02-08"
+  },
+  {
+    "id": "mise-en-garde-contre-le-mensonge",
+    "titre_fr": "MISE EN GARDE CONTRE LE MENSONGE",
+    "titre_ar": "التحذيرُ من الكَذِبِ",
+    "url_fr": "sermons_html/mise-en-garde-contre-le-mensonge.fr.html",
+    "url_ar": "sermons_html/mise-en-garde-contre-le-mensonge.ar.html",
+    "publishedAt": "2024-10-03"
+  },
+  {
+    "id": "mise-en-garde-contre-les-maux-de-la-langue",
+    "titre_fr": "MISE EN GARDE CONTRE LES MAUX DE LA LANGUE",
+    "titre_ar": "التَّحْذِير_مَن_آفَات_اللِّسَان",
+    "url_fr": "sermons_html/mise-en-garde-contre-les-maux-de-la-langue.fr.html",
+    "url_ar": "sermons_html/mise-en-garde-contre-les-maux-de-la-langue.ar.html",
+    "publishedAt": "2023-12-22"
+  },
+  {
+    "id": "mon-bien-aime-ma-recommande",
+    "titre_fr": "MON BIEN-AIMÉ M’A RECOMMANDÉ",
+    "titre_ar": "أَوْصَانِي خَلِيلِي",
+    "url_fr": "sermons_html/mon-bien-aime-ma-recommande.fr.html",
+    "url_ar": "sermons_html/mon-bien-aime-ma-recommande.ar.html",
+    "publishedAt": "2025-12-25"
+  },
+  {
+    "id": "mefiez-vous-de-lenvie",
+    "titre_fr": "MÉFIEZ-VOUS DE L’ENVIE",
+    "titre_ar": "إياكم والحسد",
+    "url_fr": "sermons_html/mefiez-vous-de-lenvie.fr.html",
+    "url_ar": "sermons_html/mefiez-vous-de-lenvie.ar.html",
+    "publishedAt": "2024-09-05"
+  },
+  {
+    "id": "ne-dites-pas-au-revoir-a-ramadan",
+    "titre_fr": "NE DITES PAS AU REVOIR À RAMADAN",
+    "titre_ar": "لا تودعوا رمضان",
+    "url_fr": "sermons_html/ne-dites-pas-au-revoir-a-ramadan.fr.html",
+    "url_ar": "sermons_html/ne-dites-pas-au-revoir-a-ramadan.ar.html",
+    "publishedAt": "2024-02-03"
+  },
+  {
+    "id": "ne-rendez-pas-vaines-vos-aumones-par-un-rappel-blessant-ou-une",
+    "titre_fr": "NE_RENDEZ_PAS_VAINES_VOS_AUMÔNES_PAR_UN_RAPPEL_BLESSANT_OU_UNE",
+    "titre_ar": "لَا_تُبْطِلُوا_صَدَقَاتِكُمْ_بِالْمَنِّ_وَالْأَذَى",
+    "url_fr": "sermons_html/ne-rendez-pas-vaines-vos-aumones-par-un-rappel-blessant-ou-une.fr.html",
+    "url_ar": "sermons_html/ne-rendez-pas-vaines-vos-aumones-par-un-rappel-blessant-ou-une.ar.html",
+    "publishedAt": "2025-07-24"
+  },
+  {
+    "id": "nouvelle-annee-scolaire-1447-h-1",
+    "titre_fr": "NOUVELLE ANNEE SCOLAIRE 1447 H-1",
+    "titre_ar": "العام الدراسي الجديد",
+    "url_fr": "sermons_html/nouvelle-annee-scolaire-1447-h-1.fr.html",
+    "url_ar": "sermons_html/nouvelle-annee-scolaire-1447-h-1.ar.html",
+    "publishedAt": "2025-08-21"
+  },
+  {
+    "id": "nouvelle-annee-scolaire",
+    "titre_fr": "NOUVELLE ANNÉE SCOLAIRE",
+    "titre_ar": "العام الدراسي الجديد",
+    "url_fr": "sermons_html/nouvelle-annee-scolaire.fr.html",
+    "url_ar": "sermons_html/nouvelle-annee-scolaire.ar.html",
+    "publishedAt": "2024-08-14"
+  },
+  {
+    "id": "offres-de-fin-dannee",
+    "titre_fr": "OFFRES DE FIN D’ANNEE",
+    "titre_ar": "عروض نهاية العام",
+    "url_fr": "sermons_html/offres-de-fin-dannee.fr.html",
+    "url_ar": "sermons_html/offres-de-fin-dannee.ar.html",
+    "publishedAt": "2024-01-29"
+  },
+  {
+    "id": "orientation-des-pelerins-a-respecter-les-reglements-et-les-consignes",
+    "titre_fr": "ORIENTATION_DES_PELERINS_A_RESPECTER_LES_REGLEMENTS_ET_LES_CONSIGNES",
+    "titre_ar": "تَـوْجِـيهُ_الْحَـجِـيجِ_لِلالْتِـزَامِ_بِالأَنْظِـمَةِ_وَالإِرْشَـادَاتِ",
+    "url_fr": "sermons_html/orientation-des-pelerins-a-respecter-les-reglements-et-les-consignes.fr.html",
+    "url_ar": "sermons_html/orientation-des-pelerins-a-respecter-les-reglements-et-les-consignes.ar.html",
+    "publishedAt": "2026-05-14"
+  },
+  {
+    "id": "par-le-savoir-les-nations-s-elevent",
+    "titre_fr": "PAR LE SAVOIR, LES NATIONS S'ELEVENT",
+    "titre_ar": "بالعلم ترقى الأمم",
+    "url_fr": "sermons_html/par-le-savoir-les-nations-s-elevent.fr.html",
+    "url_ar": "sermons_html/par-le-savoir-les-nations-s-elevent.ar.html",
+    "publishedAt": "2024-09-19"
+  },
+  {
+    "id": "peches-continus",
+    "titre_fr": "PÉCHÉS CONTINUS",
+    "titre_ar": "سيئات مستمرة",
+    "url_fr": "sermons_html/peches-continus.fr.html",
+    "url_ar": "sermons_html/peches-continus.ar.html",
+    "publishedAt": "2023-12-14"
+  },
+  {
+    "id": "peches-terrifiants",
+    "titre_fr": "PÉCHÉS TERRIFIANTS",
+    "titre_ar": "ذُنوبٌ مُرعِبَة",
+    "url_fr": "sermons_html/peches-terrifiants.fr.html",
+    "url_ar": "sermons_html/peches-terrifiants.ar.html",
+    "publishedAt": "2025-06-19"
+  },
+  {
+    "id": "preserve-allah-et-il-te-preservera",
+    "titre_fr": "PRÉSERVE ALLAH ET IL TE PRÉSERVERA",
+    "titre_ar": "احفظ الله يحفظك",
+    "url_fr": "sermons_html/preserve-allah-et-il-te-preservera.fr.html",
+    "url_ar": "sermons_html/preserve-allah-et-il-te-preservera.ar.html",
+    "publishedAt": "2023-11-22"
+  },
+  {
+    "id": "priere-et-salut-sur-le-prophete-mouhammad",
+    "titre_fr": "PRIERE ET SALUT SUR LE PROPHETE MOUHAMMAD",
+    "titre_ar": "صلى الله عليه وسلم",
+    "url_fr": "sermons_html/priere-et-salut-sur-le-prophete-mouhammad.fr.html",
+    "url_ar": "sermons_html/priere-et-salut-sur-le-prophete-mouhammad.ar.html",
+    "publishedAt": "2025-10-30"
+  },
+  {
+    "id": "prise-en-consideration-des-sentiments-et-des-emotions",
+    "titre_fr": "PRISE EN CONSIDERATION DES SENTIMENTS ET DES EMOTIONS",
+    "titre_ar": "مُرَاعَاةُ_الْمَشَاعِرِ_وَالْأَحَاسِيسِ",
+    "url_fr": "sermons_html/prise-en-consideration-des-sentiments-et-des-emotions.fr.html",
+    "url_ar": "sermons_html/prise-en-consideration-des-sentiments-et-des-emotions.ar.html",
+    "publishedAt": "2025-05-08"
+  },
+  {
+    "id": "prosterne-toi-et-rapproche-toi",
+    "titre_fr": "PROSTERNE-TOI ET RAPPROCHE-TOI",
+    "titre_ar": "واسجد واقترب",
+    "url_fr": "sermons_html/prosterne-toi-et-rapproche-toi.fr.html",
+    "url_ar": "sermons_html/prosterne-toi-et-rapproche-toi.ar.html",
+    "publishedAt": "2024-10-17"
+  },
+  {
+    "id": "preserver-autrui-du-tort-et-savoir-le-supporter",
+    "titre_fr": "PRÉSERVER AUTRUI DU TORT ET SAVOIR LE SUPPORTER",
+    "titre_ar": "كَفُّ الْأَذَى وَاحْتِمَالُهُ",
+    "url_fr": "sermons_html/preserver-autrui-du-tort-et-savoir-le-supporter.fr.html",
+    "url_ar": "sermons_html/preserver-autrui-du-tort-et-savoir-le-supporter.ar.html",
+    "publishedAt": "2025-12-17"
+  },
+  {
+    "id": "quand-viendra-le-repos",
+    "titre_fr": "QUAND VIENDRA LE REPOS",
+    "titre_ar": "متى الراحة؟",
+    "url_fr": "sermons_html/quand-viendra-le-repos.fr.html",
+    "url_ar": "sermons_html/quand-viendra-le-repos.ar.html",
+    "publishedAt": "2024-09-12"
+  },
+  {
+    "id": "questions-de-l-examen-final",
+    "titre_fr": "QUESTIONS DE L'EXAMEN FINAL",
+    "titre_ar": "أسئلة الامتحان النهائي",
+    "url_fr": "sermons_html/questions-de-l-examen-final.fr.html",
+    "url_ar": "sermons_html/questions-de-l-examen-final.ar.html",
+    "publishedAt": "2024-10-31"
+  },
+  {
+    "id": "ramadan-est-le-mois-du-culte-et-du-coran",
+    "titre_fr": "RAMADAN EST LE MOIS DU CULTE ET DU CORAN",
+    "titre_ar": "رمضان شهر العبادة والقرآن",
+    "url_fr": "sermons_html/ramadan-est-le-mois-du-culte-et-du-coran.fr.html",
+    "url_ar": "sermons_html/ramadan-est-le-mois-du-culte-et-du-coran.ar.html",
+    "publishedAt": "2024-01-27"
+  },
+  {
+    "id": "ramadan-est-une-opportunite-de-liberation",
+    "titre_fr": "RAMADAN EST UNE OPPORTUNITE DE LIBERATION",
+    "titre_ar": "رمضانُ فرصةٌ للتحرُّر",
+    "url_fr": "sermons_html/ramadan-est-une-opportunite-de-liberation.fr.html",
+    "url_ar": "sermons_html/ramadan-est-une-opportunite-de-liberation.ar.html",
+    "publishedAt": "2024-02-10"
+  },
+  {
+    "id": "ramadan-et-le-coran",
+    "titre_fr": "RAMADAN ET LE CORAN",
+    "titre_ar": "رمضانُ والقرآنُ",
+    "url_fr": "sermons_html/ramadan-et-le-coran.fr.html",
+    "url_ar": "sermons_html/ramadan-et-le-coran.ar.html",
+    "publishedAt": "2024-02-11"
+  },
+  {
+    "id": "ramadan-et-le-coran-2",
+    "titre_fr": "RAMADAN ET LE CORAN (2)",
+    "titre_ar": "رمضانُ والقرآنُ",
+    "url_fr": "sermons_html/ramadan-et-le-coran-2.fr.html",
+    "url_ar": "sermons_html/ramadan-et-le-coran-2.ar.html",
+    "publishedAt": "2025-03-13"
+  },
+  {
+    "id": "ramadan-vous-est-venu",
+    "titre_fr": "RAMADAN VOUS EST VENU",
+    "titre_ar": "أَتَاكُمْ رَمَضَانُ",
+    "url_fr": "sermons_html/ramadan-vous-est-venu.fr.html",
+    "url_ar": "sermons_html/ramadan-vous-est-venu.ar.html",
+    "publishedAt": "2025-02-27"
+  },
+  {
+    "id": "ramadan-le-mois-du-coran",
+    "titre_fr": "RAMADAN, LE MOIS DU CORAN",
+    "titre_ar": "رَمَضَانُ شَهْرُ الْقُرْآنِ",
+    "url_fr": "sermons_html/ramadan-le-mois-du-coran.fr.html",
+    "url_ar": "sermons_html/ramadan-le-mois-du-coran.ar.html",
+    "publishedAt": "2026-02-19"
+  },
+  {
+    "id": "ramadan-une-occasion-de-se-liberer",
+    "titre_fr": "RAMADAN, UNE OCCASION DE SE LIBERER",
+    "titre_ar": "رمضانُ فرصةٌ للتحرُّر (2)",
+    "url_fr": "sermons_html/ramadan-une-occasion-de-se-liberer.fr.html",
+    "url_ar": "sermons_html/ramadan-une-occasion-de-se-liberer.ar.html",
+    "publishedAt": "2026-02-19"
+  },
+  {
+    "id": "rappel-aux-gens-sur-le-maintien-des-liens-de-parente",
+    "titre_fr": "RAPPEL AUX GENS SUR LE MAINTIEN DES LIENS DE PARENTE",
+    "titre_ar": "تَذْكِيرُ_الأَنَامِ_بِصِلَةِ_الأَرْحَامِ",
+    "url_fr": "sermons_html/rappel-aux-gens-sur-le-maintien-des-liens-de-parente.fr.html",
+    "url_ar": "sermons_html/rappel-aux-gens-sur-le-maintien-des-liens-de-parente.ar.html",
+    "publishedAt": "2026-02-05"
+  },
+  {
+    "id": "regles-dusage-des-reseaux-sociaux-et-de-lintelligence-artificielle",
+    "titre_fr": "REGLES_D’USAGE_DES_RESEAUX_SOCIAUX_ET_DE_L’INTELLIGENCE_ARTIFICIELLE",
+    "titre_ar": "ضوابط_استخدام_وسائل_التواصل_الاجتماعي_والذكاء_الاصطناعي",
+    "url_fr": "sermons_html/regles-dusage-des-reseaux-sociaux-et-de-lintelligence-artificielle.fr.html",
+    "url_ar": "sermons_html/regles-dusage-des-reseaux-sociaux-et-de-lintelligence-artificielle.ar.html",
+    "publishedAt": "2026-05-06"
+  },
+  {
+    "id": "regles-du-jeune-et-ses-etiquettes",
+    "titre_fr": "RÈGLES DU JEÛNE ET SES ÉTIQUETTES",
+    "titre_ar": "أحكام الصيام وآدابه",
+    "url_fr": "sermons_html/regles-du-jeune-et-ses-etiquettes.fr.html",
+    "url_ar": "sermons_html/regles-du-jeune-et-ses-etiquettes.ar.html",
+    "publishedAt": "2024-02-03"
+  },
+  {
+    "id": "sept-personnes-qu-allah-abrite-sous-son-ombre",
+    "titre_fr": "SEPT PERSONNES QU'ALLAH ABRITE SOUS SON OMBRE",
+    "titre_ar": "سَبْعَةٌ_يُظِلُّهُمُ_اللهُ_فِي_ظِلِّهِ",
+    "url_fr": "sermons_html/sept-personnes-qu-allah-abrite-sous-son-ombre.fr.html",
+    "url_ar": "sermons_html/sept-personnes-qu-allah-abrite-sous-son-ombre.ar.html",
+    "publishedAt": "2024-02-18"
+  },
+  {
+    "id": "sermon-de-laid-al-adha",
+    "titre_fr": "SERMON DE L’AID AL-ADHA",
+    "titre_ar": "خطبة عيد الأضحى",
+    "url_fr": "sermons_html/sermon-de-laid-al-adha.fr.html",
+    "url_ar": "sermons_html/sermon-de-laid-al-adha.ar.html",
+    "publishedAt": "2025-06-05"
+  },
+  {
+    "id": "sermon-de-laid-al-fitr-1445-h",
+    "titre_fr": "SERMON DE L’AÏD AL-FITR (1445 H)",
+    "titre_ar": "خطبة عيد الفطر 1445هـ",
+    "url_fr": "sermons_html/sermon-de-laid-al-fitr-1445-h.fr.html",
+    "url_ar": "sermons_html/sermon-de-laid-al-fitr-1445-h.ar.html",
+    "publishedAt": "2024-01-31"
+  },
+  {
+    "id": "sermon-de-laid-al-adha-1445h",
+    "titre_fr": "SERMON DE L’AÏD AL-ADHA 1445H",
+    "titre_ar": "خطبة عيد الأضحى المبارك ١٤٤٥ .",
+    "url_fr": "sermons_html/sermon-de-laid-al-adha-1445h.fr.html",
+    "url_ar": "sermons_html/sermon-de-laid-al-adha-1445h.ar.html",
+    "publishedAt": "2024-02-07"
+  },
+  {
+    "id": "sermon-de-laid-al-adha-1445h-2",
+    "titre_fr": "SERMON DE L’AÏD AL-ADHA 1445H  - 2",
+    "titre_ar": "خطبة_عيد_الأضحى_1445هـ",
+    "url_fr": "sermons_html/sermon-de-laid-al-adha-1445h-2.fr.html",
+    "url_ar": "sermons_html/sermon-de-laid-al-adha-1445h-2.ar.html",
+    "publishedAt": "2024-02-07"
+  },
+  {
+    "id": "sermon-de-laid-al-adha-2026-1",
+    "titre_fr": "SERMON DE L’AÏD AL-ADHA 2026 (1)",
+    "titre_ar": "خُطْبَةُ_عِيدِ_الأَضْحَى_المبارك_1447_هـ_1",
+    "url_fr": "sermons_html/sermon-de-laid-al-adha-2026-1.fr.html",
+    "url_ar": "sermons_html/sermon-de-laid-al-adha-2026-1.ar.html",
+    "publishedAt": "2026-05-25"
+  },
+  {
+    "id": "sermon-de-laid-al-adha-2026-2",
+    "titre_fr": "SERMON DE L’AÏD AL-ADHA 2026 (2)",
+    "titre_ar": "خطبة عيد الأضحى 1447 هـ (2)",
+    "url_fr": "sermons_html/sermon-de-laid-al-adha-2026-2.fr.html",
+    "url_ar": "sermons_html/sermon-de-laid-al-adha-2026-2.ar.html",
+    "publishedAt": "2026-05-25"
+  },
+  {
+    "id": "sermon-de-laid-al-fitr-1446h",
+    "titre_fr": "SERMON DE L’AÏD AL-FITR 1446H",
+    "titre_ar": "عِيدُ الْفِطْرِ الْمُبَارَكِ",
+    "url_fr": "sermons_html/sermon-de-laid-al-fitr-1446h.fr.html",
+    "url_ar": "sermons_html/sermon-de-laid-al-fitr-1446h.ar.html",
+    "publishedAt": "2025-03-27"
+  },
+  {
+    "id": "sermon-de-laid-al-fitr-1447h",
+    "titre_fr": "SERMON DE L’AÏD AL-FITR 1447H",
+    "titre_ar": "خطبة_عيد_الْفِطْرِ_الْمُبَارَكِ_1447",
+    "url_fr": "sermons_html/sermon-de-laid-al-fitr-1447h.fr.html",
+    "url_ar": "sermons_html/sermon-de-laid-al-fitr-1447h.ar.html",
+    "publishedAt": "2026-03-19"
+  },
+  {
+    "id": "sermon-de-laid-al-fitr-2-1446h-112447",
+    "titre_fr": "SERMON DE L’AÏD AL-FITR 2 1446H_112447",
+    "titre_ar": "عِيدُ_الْفِطْرِ_الْمُبَارَكِ_2_112455",
+    "url_fr": "sermons_html/sermon-de-laid-al-fitr-2-1446h-112447.fr.html",
+    "url_ar": "sermons_html/sermon-de-laid-al-fitr-2-1446h-112447.ar.html",
+    "publishedAt": "2025-03-29"
+  },
+  {
+    "id": "seuls-les-patients-recevront-leur-recompense-sans-limite",
+    "titre_fr": "SEULS LES PATIENTS RECEVRONT LEUR RECOMPENSE SANS LIMITE",
+    "titre_ar": "إِنَّمَا_يُوَفَّى_الصَّابِرُونَ_أَجْرَهُمْ_بِغَيْرِ_حِسَابٍ",
+    "url_fr": "sermons_html/seuls-les-patients-recevront-leur-recompense-sans-limite.fr.html",
+    "url_ar": "sermons_html/seuls-les-patients-recevront-leur-recompense-sans-limite.ar.html",
+    "publishedAt": "2024-11-21"
+  },
+  {
+    "id": "si-vous-secourez-allah-il-vous-secourra",
+    "titre_fr": "SI VOUS SECOUREZ ALLAH, IL VOUS SECOURRA",
+    "titre_ar": "إن تنصروا الله ينصركم",
+    "url_fr": "sermons_html/si-vous-secourez-allah-il-vous-secourra.fr.html",
+    "url_ar": "sermons_html/si-vous-secourez-allah-il-vous-secourra.ar.html",
+    "publishedAt": "2023-11-30"
+  },
+  {
+    "id": "souffles-qui-ne-reviennent-pas",
+    "titre_fr": "SOUFFLES QUI NE REVIENNENT PAS",
+    "titre_ar": "أنفاس لا تعود",
+    "url_fr": "sermons_html/souffles-qui-ne-reviennent-pas.fr.html",
+    "url_ar": "sermons_html/souffles-qui-ne-reviennent-pas.ar.html",
+    "publishedAt": "2025-06-26"
+  },
+  {
+    "id": "sourate-al-ikhlas",
+    "titre_fr": "SOURATE AL-IKHLAS",
+    "titre_ar": "سورة الإخلاص",
+    "url_fr": "sermons_html/sourate-al-ikhlas.fr.html",
+    "url_ar": "sermons_html/sourate-al-ikhlas.ar.html",
+    "publishedAt": "2025-08-28"
+  },
+  {
+    "id": "sourate-al-qariah-le-fracas",
+    "titre_fr": "SOURATE AL-QĀRI‘AH(LE FRACAS)",
+    "titre_ar": "سورة القارعة",
+    "url_fr": "sermons_html/sourate-al-qariah-le-fracas.fr.html",
+    "url_ar": "sermons_html/sourate-al-qariah-le-fracas.ar.html",
+    "publishedAt": "2026-04-02"
+  },
+  {
+    "id": "sourate-al-asr",
+    "titre_fr": "SOURATE AL-‘ASR",
+    "titre_ar": "سورة العصــر",
+    "url_fr": "sermons_html/sourate-al-asr.fr.html",
+    "url_ar": "sermons_html/sourate-al-asr.ar.html",
+    "publishedAt": "2025-07-17"
+  },
+  {
+    "id": "sourate-az-zalzala-le-seisme",
+    "titre_fr": "SOURATE AZ-ZALZALA (LE SEISME)",
+    "titre_ar": "سورة الزلزلة",
+    "url_fr": "sermons_html/sourate-az-zalzala-le-seisme.fr.html",
+    "url_ar": "sermons_html/sourate-az-zalzala-le-seisme.ar.html",
+    "publishedAt": "2025-10-15"
+  },
+  {
+    "id": "terrier-de-lezard",
+    "titre_fr": "TERRIER DE LEZARD",
+    "titre_ar": "جُحْرُ الضَّب",
+    "url_fr": "sermons_html/terrier-de-lezard.fr.html",
+    "url_ar": "sermons_html/terrier-de-lezard.ar.html",
+    "publishedAt": "2025-12-25"
+  },
+  {
+    "id": "un-peu-de-savoir-vivre",
+    "titre_fr": "UN PEU DE SAVOIR-VIVRE",
+    "titre_ar": "قليلٌ من الأدب",
+    "url_fr": "sermons_html/un-peu-de-savoir-vivre.fr.html",
+    "url_ar": "sermons_html/un-peu-de-savoir-vivre.ar.html",
+    "publishedAt": "2025-06-28"
+  },
+  {
+    "id": "une-creature-etrange",
+    "titre_fr": "UNE CRÉATURE ÉTRANGE",
+    "titre_ar": "مخلوقٌ عَجِيْبٌ",
+    "url_fr": "sermons_html/une-creature-etrange.fr.html",
+    "url_ar": "sermons_html/une-creature-etrange.ar.html",
+    "publishedAt": "2024-07-25"
+  },
+  {
+    "id": "voici-le-jour-de-la-resurrection",
+    "titre_fr": "VOICI LE JOUR DE LA RÉSURRECTION",
+    "titre_ar": "هذا يوم البعث",
+    "url_fr": "sermons_html/voici-le-jour-de-la-resurrection.fr.html",
+    "url_ar": "sermons_html/voici-le-jour-de-la-resurrection.ar.html",
+    "publishedAt": "2024-02-21"
+  },
+  {
+    "id": "ceux-la-sont-les-veridiques",
+    "titre_fr": "« CEUX-LÀ SONT LES VÉRIDIQUES »",
+    "titre_ar": "أُوَلئِكَ هُمُ الصَّادِقُون (1)",
+    "url_fr": "sermons_html/ceux-la-sont-les-veridiques.fr.html",
+    "url_ar": "sermons_html/ceux-la-sont-les-veridiques.ar.html",
+    "publishedAt": "2025-09-11"
+  },
+  {
+    "id": "et-un-avertisseur-vous-est-venu",
+    "titre_fr": "« ET UN AVERTISSEUR VOUS EST VENU »",
+    "titre_ar": "وجَآءَكُمُ النَّذِير",
+    "url_fr": "sermons_html/et-un-avertisseur-vous-est-venu.fr.html",
+    "url_ar": "sermons_html/et-un-avertisseur-vous-est-venu.ar.html",
+    "publishedAt": "2025-01-09"
+  },
+  {
+    "id": "ceux-qui-sont-penetres-de-crainte-devant-leur-seigneur",
+    "titre_fr": "«_CEUX_QUI_SONT_PÉNÉTRÉS_DE_CRAINTE_DEVANT_LEUR_SEIGNEUR…_»",
+    "titre_ar": "إِنَّ_الَّذِينَ_هُمْ_مِنْ_خَشْيَةِ_رَبِّهِمْ_مُشْفِقُونَ_",
+    "url_fr": "sermons_html/ceux-qui-sont-penetres-de-crainte-devant-leur-seigneur.fr.html",
+    "url_ar": "sermons_html/ceux-qui-sont-penetres-de-crainte-devant-leur-seigneur.ar.html",
+    "publishedAt": "2025-07-31"
+  },
+  {
+    "id": "education-des-enfants",
+    "titre_fr": "ÉDUCATION DES ENFANTS",
+    "titre_ar": "تَربِيَـــةُ الأَبنَــــاءِ",
+    "url_fr": "sermons_html/education-des-enfants.fr.html",
+    "url_ar": "sermons_html/education-des-enfants.ar.html",
+    "publishedAt": "2024-08-14"
+  },
+  {
+    "id": "uthman-ibn-affan-le-possesseur-des-deux-lumieres-quallah",
+    "titre_fr": "ʿUTHMÂN_IBN_ʿAFFÂN,_«_LE_POSSESSEUR_DES_DEUX_LUMIÈRES_»_qu’Allah",
+    "titre_ar": "عُثْمانُ_بْنُ_عَفَّانَ_ذُو_النُّورَينِ_رضي_الله_عنه",
+    "url_fr": "sermons_html/uthman-ibn-affan-le-possesseur-des-deux-lumieres-quallah.fr.html",
+    "url_ar": "sermons_html/uthman-ibn-affan-le-possesseur-des-deux-lumieres-quallah.ar.html",
+    "publishedAt": "2025-09-25"
+  },
+  {
+    "id": "ali-ibn-abi-talib-quallah-lagree",
+    "titre_fr": "‘ALI IBN ABI TALIB (QU’ALLAH L’AGREE)",
+    "titre_ar": "عَلِيُّ_بْنُ_أَبِي_طَالِبٍ_رضي_الله_عنه",
+    "url_fr": "sermons_html/ali-ibn-abi-talib-quallah-lagree.fr.html",
+    "url_ar": "sermons_html/ali-ibn-abi-talib-quallah-lagree.ar.html",
+    "publishedAt": "2025-10-30"
+  },
+  {
+    "id": "umar-ibn-al-khattab-quallah-soit-satisfait-de-lui",
+    "titre_fr": "‘UMAR IBN AL-KHATTAB (QU’ALLAH SOIT SATISFAIT DE LUI)",
+    "titre_ar": "عُمَرُ_بْنُ_الْخَطَّابِ_رضي_الله_عنه",
+    "url_fr": "sermons_html/umar-ibn-al-khattab-quallah-soit-satisfait-de-lui.fr.html",
+    "url_ar": "sermons_html/umar-ibn-al-khattab-quallah-soit-satisfait-de-lui.ar.html",
+    "publishedAt": "2025-08-28"
+  }
+]

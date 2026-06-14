@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --font-size-reader: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Thème Sépia */
+.theme-sepia {
+  background-color: #f4ecd8;
+  color: #5c4a1e;
+}
+
+/* Texte arabe */
+[dir="rtl"] {
+  font-family: 'Amiri', 'Arabic Typesetting', serif;
+}
+
+/* Défilement horizontal sans scrollbar visible */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Respect de la zone sûre iOS (encoche / barre d'accueil) sous la nav mobile */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
