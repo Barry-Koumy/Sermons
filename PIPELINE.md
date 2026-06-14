@@ -21,9 +21,22 @@ sermons-app/public/
   sermons.json                catalogue lu par l'app
 ```
 
-## Étapes
+## Voie rapide — ajouter UN sermon (recommandé)
 
-Depuis `sermons-app/` :
+Pour une proposition reçue (1 PDF français + 1 PDF arabe), **une seule commande**
+depuis `sermons-app/` :
+
+```bash
+python add_sermon.py "chemin/vers/FR.pdf" "chemin/vers/AR.pdf"
+git add public/ && git commit -m "ajout d'un sermon" && git push
+```
+
+Le site se reconstruit automatiquement. C'est tout. (Titres déduits des noms de
+fichiers ; sinon `--titre-fr "..."` / `--titre-ar "..."`.)
+
+## Import en masse (pipeline complet)
+
+Pour traiter beaucoup de PDF d'un coup, depuis `sermons-app/` :
 
 ```bash
 # 1. Convertir les PDF en HTML (PyMuPDF). Déposez d'abord vos PDF dans ../semons/
