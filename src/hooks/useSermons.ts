@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import type { Sermon } from '../types/sermon';
-import { SERMONS_CATALOG_URL } from '../config';
+import { SERMONS_CATALOG_URL, LOCAL_CATALOG_URL, CONTENT_BASE, LOCAL_BASE } from '../config';
+import { fetchJson } from '../utils/http';
 
 interface RawSermon {
   id: string;
@@ -24,7 +25,7 @@ function cleanTitle(s: string | undefined): string {
   return (s ?? '').replace(/_/g, ' ').trim();
 }
 
-function normalizeSermon(raw: RawSermon): Sermon {
+function normalizeSermon(raw: RawSermon, base: string): Sermon {
   return {
     id: raw.id,
     titleFr: cleanTitle(raw.titre_fr ?? raw.titleFr),
@@ -34,8 +35,8 @@ function normalizeSermon(raw: RawSermon): Sermon {
     publishedAt: raw.publishedAt ?? '',
     contentFr: raw.contentFr,
     contentAr: raw.contentAr,
-    htmlUrlFr: raw.url_fr ? `${import.meta.env.BASE_URL}${raw.url_fr}` : raw.htmlUrlFr,
-    htmlUrlAr: raw.url_ar ? `${import.meta.env.BASE_URL}${raw.url_ar}` : raw.htmlUrlAr,
+    htmlUrlFr: raw.url_fr ? `${base}${raw.url_fr}` : raw.htmlUrlFr,
+    htmlUrlAr: raw.url_ar ? `${base}${raw.url_ar}` : raw.htmlUrlAr,
   };
 }
 
@@ -46,20 +47,29 @@ let _promise: Promise<Sermon[]> | null = null;
 function loadSermons(): Promise<Sermon[]> {
   if (_cache) return Promise.resolve(_cache);
   if (!_promise) {
-    _promise = fetch(SERMONS_CATALOG_URL)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json() as Promise<RawSermon[]>;
-      })
-      .then((data) => {
-        const normalized = data.map(normalizeSermon);
-        _cache = normalized;
-        return normalized;
-      })
-      .catch((err) => {
-        _promise = null; // permet une nouvelle tentative
-        throw err;
-      });
+    _promise = (async () => {
+      try {
+        // 1) Source distante (mobile : site en ligne ; web : même origine)
+        const data = await fetchJson<RawSermon[]>(SERMONS_CATALOG_URL);
+        _cache = data.map((r) => normalizeSermon(r, CONTENT_BASE));
+        return _cache;
+      } catch (errRemote) {
+        // 2) Repli sur la copie embarquée (hors-ligne). Sans objet sur le web,
+        //    où la source distante EST déjà la copie locale.
+        if (LOCAL_CATALOG_URL === SERMONS_CATALOG_URL) {
+          _promise = null;
+          throw errRemote;
+        }
+        try {
+          const data = await fetchJson<RawSermon[]>(LOCAL_CATALOG_URL);
+          _cache = data.map((r) => normalizeSermon(r, LOCAL_BASE));
+          return _cache;
+        } catch (errLocal) {
+          _promise = null; // permet une nouvelle tentative
+          throw errLocal;
+        }
+      }
+    })();
   }
   return _promise;
 }

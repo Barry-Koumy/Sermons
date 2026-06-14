@@ -5,6 +5,7 @@ import { useSermons } from '../hooks/useSermons';
 import { formatDualDate } from '../utils/dates';
 import { t } from '../i18n/translations';
 import SermonContent, { extractSections } from '../components/SermonContent';
+import { fetchText } from '../utils/http';
 
 type Theme = 'light' | 'dark' | 'sepia';
 type FontSize = 'sm' | 'md' | 'lg';
@@ -132,11 +133,7 @@ export default function ReaderScreen() {
     setHtmlInner(null);
     setHtmlError(null);
 
-    fetch(htmlUrl)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.text();
-      })
+    fetchText(htmlUrl)
       .then((raw) => {
         if (cancelled) return;
         const { innerHtml, sections } = prepareHtmlContent(raw);
