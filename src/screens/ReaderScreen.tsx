@@ -51,7 +51,6 @@ export default function ReaderScreen() {
   const [htmlInner, setHtmlInner] = useState<string | null>(null);
   const [htmlSections, setHtmlSections] = useState<string[]>([]);
   const [htmlLoading, setHtmlLoading] = useState(false);
-  const [htmlError, setHtmlError] = useState<string | null>(null);
 
   const scrollRef = useRef<HTMLDivElement>(null);
   const saveTimer = useRef<number | null>(null);
@@ -105,14 +104,12 @@ export default function ReaderScreen() {
     if (!htmlUrl) {
       setHtmlInner(null);
       setHtmlSections([]);
-      setHtmlError(null);
       return;
     }
 
     let cancelled = false;
     setHtmlLoading(true);
     setHtmlInner(null);
-    setHtmlError(null);
 
     fetchText(htmlUrl)
       .then((raw) => {
@@ -122,9 +119,10 @@ export default function ReaderScreen() {
         setHtmlSections(sections);
         setHtmlLoading(false);
       })
-      .catch((err: Error) => {
+      .catch(() => {
+        // Échec réseau (souvent hors-ligne) : on bascule sur la copie téléchargée
+        // si elle existe (cf. resolvedHtmlInner). Pas d'erreur brute affichée.
         if (cancelled) return;
-        setHtmlError(err.message ?? String(err));
         setHtmlLoading(false);
       });
 
@@ -142,31 +140,45 @@ export default function ReaderScreen() {
   };
 
   // ─── Résolution du contenu final ───────────────────────────────
-  // Priorité : sermon distant > sermon téléchargé
+  // Contenu/titre téléchargé pour une langue donnée. Format bilingue (contentFr/Ar) ;
+  // repli sur l'ancien format mono-langue (un seul `content`/`title`, valable
+  // uniquement pour `downloaded.lang`).
+  const dlContent = (l: 'fr' | 'ar'): string | undefined => {
+    if (!downloaded) return undefined;
+    const bilingual = l === 'ar' ? downloaded.contentAr : downloaded.contentFr;
+    if (bilingual != null) return bilingual;
+    return downloaded.lang === l ? downloaded.content : undefined;
+  };
+  const dlTitle = (l: 'fr' | 'ar'): string => {
+    if (!downloaded) return '';
+    return (l === 'ar' ? downloaded.titleAr : downloaded.titleFr) ?? downloaded.title ?? '';
+  };
+
+  // Priorité : sermon distant (frais) > copie téléchargée (hors-ligne)
   const isHtmlSermon = !!(sermon
     ? (lang === 'ar' ? sermon.htmlUrlAr : sermon.htmlUrlFr)
     : downloaded?.isHtml);
 
   const title = sermon
     ? lang === 'ar' ? sermon.titleAr : sermon.titleFr
-    : downloaded?.title ?? '';
+    : dlTitle(lang);
   const author = (sermon?.author ?? downloaded?.author)?.trim() || t(lang, 'telegramSource');
   const category = sermon?.category ?? downloaded?.category ?? 'Spiritualité';
   const publishedAt = sermon?.publishedAt ?? downloaded?.publishedAt ?? '';
   const sourceUrl = sermon?.sourceUrl ?? '';
-  const displayDir = sermon ? lang : (downloaded?.lang ?? lang);
+  const displayDir = lang;
   const dateLabel = formatDualDate(publishedAt, displayDir);
   const isDownloaded = !!downloaded;
   const isFavorite = id ? favorites.includes(id) : false;
 
-  // Contenu texte (ancien format)
+  // Contenu texte (ancien format inline)
   const textContent = sermon
     ? lang === 'ar' ? sermon.contentAr : sermon.contentFr
-    : (!downloaded?.isHtml ? downloaded?.content : undefined);
+    : (!downloaded?.isHtml ? dlContent(lang) : undefined);
   const sections = textContent ? extractSections(textContent) : [];
 
-  // Contenu HTML final (distant ou téléchargé)
-  const resolvedHtmlInner = htmlInner ?? (downloaded?.isHtml ? downloaded.content : null);
+  // Contenu HTML final : distant (frais) en priorité, sinon copie téléchargée (hors-ligne)
+  const resolvedHtmlInner = htmlInner ?? (downloaded?.isHtml ? dlContent(lang) ?? null : null);
   const resolvedSections = htmlSections.length > 0 ? htmlSections : [];
 
   const activeSections = isHtmlSermon ? resolvedSections : sections;
@@ -336,22 +348,23 @@ export default function ReaderScreen() {
             )}
           </div>
 
-          {/* Contenu */}
+          {/* Contenu — la copie téléchargée prime sur le réseau pour fonctionner hors-ligne */}
           {isHtmlSermon ? (
-            htmlLoading ? (
-              <div className="flex justify-center py-16">
-                <div className="w-8 h-8 border-4 border-emerald-600 border-t-transparent rounded-full animate-spin" />
-              </div>
-            ) : htmlError ? (
-              <p className="text-red-500 italic text-sm">{t(lang, 'contentUnavailable')} — {htmlError}</p>
-            ) : resolvedHtmlInner ? (
+            resolvedHtmlInner ? (
               <div
                 className="sermon-html-content"
                 data-theme={theme}
                 dir={displayDir === 'ar' ? 'rtl' : 'ltr'}
                 dangerouslySetInnerHTML={{ __html: resolvedHtmlInner }}
               />
-            ) : null
+            ) : htmlLoading ? (
+              <div className="flex justify-center py-16">
+                <div className="w-8 h-8 border-4 border-emerald-600 border-t-transparent rounded-full animate-spin" />
+              </div>
+            ) : (
+              // Ni contenu frais ni copie hors-ligne pour cette langue.
+              <p className="text-gray-400 italic">{t(lang, 'contentUnavailable')}</p>
+            )
           ) : textContent ? (
             <SermonContent content={textContent} theme={theme} dir={displayDir === 'ar' ? 'rtl' : 'ltr'} />
           ) : (

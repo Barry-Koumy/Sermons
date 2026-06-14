@@ -17,6 +17,12 @@ dist-ssr
 .env.*
 !.env.example
 
+# Signature Android (Play Store) — NE JAMAIS VERSIONNER. Perte = plus de mises à jour possibles.
+keystore.properties
+keystore/
+*.jks
+*.keystore
+
 # Fichiers de travail du pipeline (intermédiaires, régénérables, inutiles à l'app)
 fr_exact.json
 ar_exact.json

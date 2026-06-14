@@ -42,6 +42,12 @@ export default function ContributeScreen() {
     return `mailto:${OWNER_EMAIL}?subject=${subject}&body=${encodeURIComponent(lines.join('\n'))}`;
   };
 
+  // Construit le mailto au moment du clic (et non au rendu) : lit ainsi les valeurs
+  // réellement saisies dans le formulaire (champs non contrôlés) au lieu d'un lien figé.
+  const openMailto = () => {
+    window.location.href = buildMailto();
+  };
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError('');
@@ -193,15 +199,16 @@ export default function ContributeScreen() {
           {status === 'error' && error && (
             <div className="text-sm text-red-600 bg-red-50 dark:bg-red-900/20 rounded-lg px-3 py-2.5">
               <p>{error}</p>
-              <a
-                href={buildMailto()}
+              <button
+                type="button"
+                onClick={openMailto}
                 className="inline-flex items-center gap-1.5 mt-2 font-medium text-red-700 dark:text-red-300 underline"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 {t('formMailtoCta')}
-              </a>
+              </button>
             </div>
           )}
 
@@ -214,9 +221,9 @@ export default function ContributeScreen() {
           </button>
 
           {/* Repli email toujours disponible */}
-          <a href={buildMailto()} className="text-center text-xs text-gray-400 hover:text-emerald-600 mt-1">
+          <button type="button" onClick={openMailto} className="text-center text-xs text-gray-400 hover:text-emerald-600 mt-1">
             {t('formMailtoHint')}
-          </a>
+          </button>
         </form>
       </div>
     </div>

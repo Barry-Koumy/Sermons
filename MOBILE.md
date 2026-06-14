@@ -60,7 +60,41 @@ Cet APK **embarque** les sermons (lecture hors-ligne, figée au moment du build)
 Pour que l'app mobile reçoive les nouveaux sermons **sans réinstallation**, on pourra
 la faire lire le catalogue **distant** (le site Vercel/Pages) — à activer quand vous voudrez.
 
-## Plus tard : version signée (Play Store)
+## Version signée pour le Play Store (AAB)
 
-Le build debug suffit pour tester. Pour publier sur le Play Store, il faudra un
-APK/AAB **signé** (`./gradlew assembleRelease` + keystore) — à faire le moment venu.
+Le Play Store exige un **AAB signé**. La signature est déjà configurée.
+
+### Clé de signature (keystore)
+
+- Fichier : `sermons-app/keystore/sermons-release.jks` (alias `sermons-upload`, RSA 2048,
+  valide jusqu'en 2053).
+- Secrets : `sermons-app/keystore.properties` (storeFile, storePassword, keyAlias, keyPassword).
+- **Ces deux fichiers sont gitignorés et NE DOIVENT JAMAIS être versionnés ni perdus.**
+  Sans eux, impossible de publier une mise à jour de l'app. Sauvegardez-les hors de la
+  machine (gestionnaire de mots de passe + copie chiffrée du `.jks`).
+- Première publication → activez **Play App Signing** : cette clé devient la *clé d'upload*
+  (réinitialisable via Google si perdue, contrairement à la clé d'app).
+
+### Construire l'AAB signé
+
+Depuis `sermons-app/` :
+
+```powershell
+$env:VITE_BASE=$null      # base '/' (par défaut) pour le mobile
+npm run build
+npx cap sync android
+cd android; .\gradlew.bat bundleRelease
+```
+
+Résultat : `android/app/build/outputs/bundle/release/app-release.aab` (signé).
+Vérifier : `& "$env:JAVA_HOME\bin\jarsigner.exe" -verify <aab>` → « jar verified. ».
+Avant chaque release, incrémentez `versionCode` (et `versionName`) dans `android/app/build.gradle`.
+
+### Si vous régénérez le projet natif (`npx cap add android`)
+
+Le dossier `android/` n'est pas versionné. Après régénération, en plus du correctif Kotlin
+ci-dessus, **ré-appliquez le bloc de signature** dans `android/app/build.gradle` : le
+chargement de `keystore.properties` (`def keystorePropertiesFile = rootProject.file("../keystore.properties")`),
+le `signingConfigs { release { … } }`, et `signingConfig signingConfigs.release` dans
+`buildTypes.release`. Le `.jks` et `keystore.properties` vivent **hors** de `android/`, donc
+ils survivent à la régénération.

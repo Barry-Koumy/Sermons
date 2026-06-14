@@ -37,8 +37,14 @@ export default function HomeScreen() {
     )
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
-  // Le sermon le plus récent est mis en avant uniquement en vue par défaut
+  // « À la une » (vue par défaut) : tous les sermons partageant la date la plus
+  // récente, pas seulement le premier. La liste étant triée par date décroissante,
+  // ce sont les premiers éléments dont publishedAt == celui de filtered[0].
   const showFeatured = !search && filtered.length > 0;
+  const featuredDate = showFeatured ? filtered[0].publishedAt : '';
+  const isFeatured = (s: Sermon) => !!featuredDate && s.publishedAt === featuredDate;
+  const featuredList = showFeatured ? filtered.filter(isFeatured) : [];
+  const restList = showFeatured ? filtered.filter((s) => !isFeatured(s)) : filtered;
 
   const renderCard = (sermon: Sermon, featured = false) => (
     <SermonCard
@@ -111,9 +117,8 @@ export default function HomeScreen() {
             </div>
           ) : (
             <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-4">
-              {showFeatured
-                ? [renderCard(filtered[0], true), ...filtered.slice(1).map((s) => renderCard(s))]
-                : filtered.map((s) => renderCard(s))}
+              {featuredList.map((s) => renderCard(s, true))}
+              {restList.map((s) => renderCard(s))}
             </div>
           )}
         </div>

@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 import type { Sermon } from '../types/sermon';
-import { useAppStore, type Lang } from '../store/useAppStore';
+import { useAppStore, type DownloadContents, type Lang } from '../store/useAppStore';
 import { fetchText } from '../utils/http';
 import { prepareHtmlContent } from '../utils/sermonHtml';
 
@@ -12,9 +12,13 @@ import { prepareHtmlContent } from '../utils/sermonHtml';
  * par le HTTP natif sur mobile) et on le pré-traite comme à l'affichage. Sans cela,
  * le store enregistrait un contenu vide → « Contenu non disponible » hors-ligne.
  *
- * @returns `download(sermon, lang, preparedInnerHtml?)` — si le HTML est déjà chargé
- *          (lecteur), le passer évite une requête superflue ; sinon il est récupéré.
- *          `pendingIds` liste les sermons en cours de récupération.
+ * Les **deux langues** (FR + AR) sont récupérées et enregistrées : l'app étant
+ * bilingue, basculer FR/AR hors-ligne doit fonctionner. Une langue qui échoue
+ * n'empêche pas d'enregistrer l'autre (`allSettled`).
+ *
+ * @returns `download(sermon, lang, preparedInnerHtml?)` — si le HTML de la langue
+ *          courante est déjà chargé (lecteur), le passer évite une requête ; l'autre
+ *          langue est tout de même récupérée. `pendingIds` liste les sermons en cours.
  */
 export function useDownloadSermon() {
   const downloadSermon = useAppStore((s) => s.downloadSermon);
@@ -25,16 +29,9 @@ export function useDownloadSermon() {
     async (sermon: Sermon, lang: Lang, preparedInnerHtml?: string | null) => {
       if (sermon.id in downloads) return; // déjà enregistré
 
-      const htmlUrl = lang === 'ar' ? sermon.htmlUrlAr : sermon.htmlUrlFr;
-
-      // Ancien format texte (pas d'URL HTML) : rien à récupérer.
-      if (!htmlUrl) {
+      // Ancien format texte (aucune URL HTML) : rien à récupérer, le catalogue suffit.
+      if (!sermon.htmlUrlFr && !sermon.htmlUrlAr) {
         downloadSermon(sermon, lang);
-        return;
-      }
-      // HTML déjà chargé (depuis le lecteur) : enregistrement direct.
-      if (preparedInnerHtml) {
-        downloadSermon(sermon, lang, preparedInnerHtml);
         return;
       }
 
@@ -44,13 +41,28 @@ export function useDownloadSermon() {
         next.add(sermon.id);
         return next;
       });
+
+      // Récupère et pré-traite le HTML d'une langue (réutilise le HTML déjà chargé
+      // pour la langue courante afin d'éviter une requête superflue).
+      const fetchLang = async (l: Lang): Promise<string | undefined> => {
+        const url = l === 'ar' ? sermon.htmlUrlAr : sermon.htmlUrlFr;
+        if (!url) return undefined;
+        if (l === lang && preparedInnerHtml) return preparedInnerHtml;
+        const raw = await fetchText(url);
+        return prepareHtmlContent(raw).innerHtml;
+      };
+
       try {
-        const raw = await fetchText(htmlUrl);
-        const { innerHtml } = prepareHtmlContent(raw);
-        downloadSermon(sermon, lang, innerHtml);
-      } catch {
-        // Échec réseau : on n'enregistre rien (mieux qu'un contenu vide trompeur).
-        // Le bouton revient à l'état « non téléchargé » ; l'utilisateur peut réessayer.
+        const [fr, ar] = await Promise.allSettled([fetchLang('fr'), fetchLang('ar')]);
+        const contents: DownloadContents = {
+          fr: fr.status === 'fulfilled' ? fr.value : undefined,
+          ar: ar.status === 'fulfilled' ? ar.value : undefined,
+        };
+        // On n'enregistre que si au moins une langue a été récupérée
+        // (échec réseau total → bouton « non téléchargé », l'utilisateur réessaie).
+        if (contents.fr || contents.ar) {
+          downloadSermon(sermon, lang, contents);
+        }
       } finally {
         setPendingIds((prev) => {
           if (!prev.has(sermon.id)) return prev;

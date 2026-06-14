@@ -7,7 +7,7 @@ import { useT } from '../i18n/translations';
 
 // ─── Configuration ──────────────────────────────────────────────────────────
 const APP_NAME = 'Bibliothèque de Sermons';
-const APP_VERSION = '1.1.0';
+const APP_VERSION = '1.2.0';
 const PLAYSTORE_URL = 'https://play.google.com/store/apps/details?id=com.koumy.sermons';
 const CONTACT_EMAIL = 'barrymohamadoucire@gmail.com';
 const APPS_API_URL = 'https://raw.githubusercontent.com/Barry-Koumy/mes-applications/refs/heads/main/app.json';
