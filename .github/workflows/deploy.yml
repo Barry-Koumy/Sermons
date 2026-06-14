@@ -26,6 +26,8 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
+          # Sous-chemin GitHub Pages (https://barry-koumy.github.io/Sermons/)
+          VITE_BASE: /Sermons/
           # Clé Web3Forms (formulaire « Ajouter ou participer ») —
           # à définir dans Settings → Secrets and variables → Actions.
           VITE_WEB3FORMS_KEY: ${{ secrets.VITE_WEB3FORMS_KEY }}
