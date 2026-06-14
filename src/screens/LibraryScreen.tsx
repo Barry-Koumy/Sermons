@@ -6,6 +6,7 @@ import { useAppStore } from '../store/useAppStore';
 import { useT } from '../i18n/translations';
 import LanguageToggle from '../components/LanguageToggle';
 import { useSermons } from '../hooks/useSermons';
+import { useDownloadSermon } from '../hooks/useDownloadSermon';
 
 type Filter = 'all' | 'recent' | 'downloaded' | 'favorites';
 
@@ -24,7 +25,7 @@ export default function LibraryScreen() {
   const favorites = useAppStore((s) => s.favorites);
   const toggleFavorite = useAppStore((s) => s.toggleFavorite);
   const downloads = useAppStore((s) => s.downloads);
-  const downloadSermon = useAppStore((s) => s.downloadSermon);
+  const { download, pendingIds } = useDownloadSermon();
   const removeDownload = useAppStore((s) => s.removeDownload);
   const lastRead = useAppStore((s) => s.lastRead);
   const { t } = useT();
@@ -109,9 +110,10 @@ export default function LibraryScreen() {
                   lang={lang}
                   isFavorite={favorites.includes(s.id)}
                   isDownloaded={s.id in downloads}
+                  isDownloading={pendingIds.has(s.id)}
                   badges={filter === 'all' ? badgesFor(s) : []}
                   onToggleFavorite={() => toggleFavorite(s.id)}
-                  onDownload={() => downloadSermon(s, lang)}
+                  onDownload={() => download(s, lang)}
                   onRemoveDownload={s.id in downloads ? () => removeDownload(s.id) : undefined}
                   onClick={() => navigate(`/reader/${s.id}`)}
                 />

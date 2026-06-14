@@ -7,7 +7,7 @@ import { useT } from '../i18n/translations';
 
 // ─── Configuration ──────────────────────────────────────────────────────────
 const APP_NAME = 'Bibliothèque de Sermons';
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.1.0';
 const PLAYSTORE_URL = 'https://play.google.com/store/apps/details?id=com.koumy.sermons';
 const CONTACT_EMAIL = 'barrymohamadoucire@gmail.com';
 const APPS_API_URL = 'https://raw.githubusercontent.com/Barry-Koumy/mes-applications/refs/heads/main/app.json';
@@ -60,11 +60,11 @@ export default function MoreScreen() {
       <div className="w-full max-w-2xl mx-auto px-4 md:px-6 pt-12 lg:pt-8 pb-8">
         {/* En-tête */}
         <div className="flex flex-col items-center py-7">
-          <div className="w-20 h-20 rounded-3xl bg-emerald-600 flex items-center justify-center mb-3 shadow-lg shadow-emerald-600/30">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-            </svg>
-          </div>
+          <img
+            src={`${import.meta.env.BASE_URL}icon-192.png`}
+            alt=""
+            className="w-20 h-20 rounded-3xl object-cover mb-3 shadow-lg shadow-emerald-600/30"
+          />
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white tracking-tight">{APP_NAME}</h1>
           <p className="text-sm text-gray-400 dark:text-gray-500 mt-1">v{APP_VERSION}</p>
         </div>

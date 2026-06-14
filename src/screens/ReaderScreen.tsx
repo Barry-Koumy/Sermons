@@ -6,6 +6,8 @@ import { formatDualDate } from '../utils/dates';
 import { t } from '../i18n/translations';
 import SermonContent, { extractSections } from '../components/SermonContent';
 import { fetchText } from '../utils/http';
+import { prepareHtmlContent } from '../utils/sermonHtml';
+import { useDownloadSermon } from '../hooks/useDownloadSermon';
 
 type Theme = 'light' | 'dark' | 'sepia';
 type FontSize = 'sm' | 'md' | 'lg';
@@ -24,27 +26,6 @@ const themeClasses: Record<Theme, string> = {
 
 const SCROLL_KEY = (id: string) => `reader-scroll-${id}`;
 
-// ─── Helpers HTML ────────────────────────────────────────────────────────────
-
-/**
- * Extrait le HTML intérieur de .pdf-container depuis un document HTML complet.
- * Ajoute des ids aux .titre-principal pour permettre la navigation par sommaire.
- * Retourne { innerHtml, sections }.
- */
-function prepareHtmlContent(rawHtml: string): { innerHtml: string; sections: string[] } {
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(rawHtml, 'text/html');
-  const container = doc.querySelector('.pdf-container') ?? doc.body;
-
-  const sections: string[] = [];
-  container.querySelectorAll<HTMLElement>('.titre-principal').forEach((el, i) => {
-    sections.push(el.textContent?.trim() ?? '');
-    el.id = `section-${i}`;
-  });
-
-  return { innerHtml: container.innerHTML, sections };
-}
-
 // ─── Composant ───────────────────────────────────────────────────────────────
 
 export default function ReaderScreen() {
@@ -54,7 +35,7 @@ export default function ReaderScreen() {
   const globalLang = useAppStore((s) => s.lang);
   const setGlobalLang = useAppStore((s) => s.setLang);
   const downloads = useAppStore((s) => s.downloads);
-  const downloadSermon = useAppStore((s) => s.downloadSermon);
+  const { download, pendingIds } = useDownloadSermon();
   const favorites = useAppStore((s) => s.favorites);
   const toggleFavorite = useAppStore((s) => s.toggleFavorite);
   const markRead = useAppStore((s) => s.markRead);
@@ -197,12 +178,9 @@ export default function ReaderScreen() {
 
   const handleDownload = () => {
     if (!sermon || isDownloaded) return;
-    if (isHtmlSermon && resolvedHtmlInner) {
-      // Stocke le HTML déjà préparé (avec IDs de section inclus)
-      downloadSermon(sermon, lang, resolvedHtmlInner);
-    } else {
-      downloadSermon(sermon, lang);
-    }
+    // Le HTML déjà chargé (resolvedHtmlInner) évite une requête ; sinon le hook
+    // le récupère avant d'enregistrer (corrige l'enregistrement de contenu vide).
+    download(sermon, lang, resolvedHtmlInner);
   };
 
   const handleShare = async () => {
@@ -301,7 +279,7 @@ export default function ReaderScreen() {
           </div>
           <button
             onClick={handleDownload}
-            disabled={isHtmlSermon && htmlLoading}
+            disabled={(isHtmlSermon && htmlLoading) || (!!id && pendingIds.has(id))}
             title={isDownloaded ? t(lang, 'savedOffline') : t(lang, 'saveOffline')}
             className={`p-2 rounded-full shadow transition-colors ${
               isDownloaded
@@ -309,7 +287,9 @@ export default function ReaderScreen() {
                 : 'bg-emerald-600 text-white hover:bg-emerald-700 disabled:opacity-40'
             }`}
           >
-            {isDownloaded ? (
+            {!!id && pendingIds.has(id) ? (
+              <span className="block w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
+            ) : isDownloaded ? (
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>

@@ -41,32 +41,28 @@ def upsert(entries: list[dict], new: dict) -> bool:
     return False
 
 
-def main() -> None:
-    try:
-        sys.stdout.reconfigure(encoding="utf-8")
-    except Exception:
-        pass
+def add_sermon(
+    fr_pdf: "str | Path",
+    ar_pdf: "str | Path",
+    titre_fr: "str | None" = None,
+    titre_ar: "str | None" = None,
+    sid: "str | None" = None,
+) -> dict:
+    """Convertit les 2 PDF, écrit les HTML et met à jour le catalogue. Retourne un récap.
 
-    ap = argparse.ArgumentParser(description="Ajoute un sermon (PDF FR + AR) au catalogue.")
-    ap.add_argument("fr_pdf", help="PDF français")
-    ap.add_argument("ar_pdf", help="PDF arabe")
-    ap.add_argument("--titre-fr", dest="titre_fr", help="Titre FR (défaut : nom du PDF)")
-    ap.add_argument("--titre-ar", dest="titre_ar", help="Titre AR (défaut : nom du PDF)")
-    ap.add_argument("--id", help="Identifiant (défaut : dérivé du titre FR)")
-    args = ap.parse_args()
-
-    fr, ar = Path(args.fr_pdf), Path(args.ar_pdf)
+    Réutilisable : appelée par la CLI (main) ET par l'outil graphique
+    « Ajouter un sermon » (ajouter_sermon.pyw).
+    """
+    fr, ar = Path(fr_pdf), Path(ar_pdf)
     for p in (fr, ar):
         if not p.exists():
-            print(f"Fichier introuvable : {p}")
-            sys.exit(1)
+            raise FileNotFoundError(p)
 
-    titre_fr = args.titre_fr or clean_title(fr.stem)
-    titre_ar = args.titre_ar or clean_title(ar.stem)
-    sid = args.id or slugify(titre_fr)
+    titre_fr = titre_fr or clean_title(fr.stem)
+    titre_ar = titre_ar or clean_title(ar.stem)
+    sid = sid or slugify(titre_fr)
 
     OUT_HTML.mkdir(parents=True, exist_ok=True)
-    print(f"\nConversion → {sid}")
     pdf_to_html(fr, OUT_HTML / f"{sid}.fr.html")
     pdf_to_html(ar, OUT_HTML / f"{sid}.ar.html")
 
@@ -87,11 +83,43 @@ def main() -> None:
     entries.sort(key=lambda e: e.get("titre_fr", "").lower())
     PUB_JSON.write_text(json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(f"\n  ✓  {'Remplacé' if replaced else 'Ajouté'} : {sid}")
-    print(f"     titre FR : {titre_fr}")
-    print(f"     titre AR : {titre_ar}")
-    print(f"     date     : {date or '— (aucune)'} ({source})")
-    print(f"     catalogue : {len(entries)} sermons au total")
+    return {
+        "id": sid,
+        "titre_fr": titre_fr,
+        "titre_ar": titre_ar,
+        "date": date,
+        "source": source,
+        "replaced": replaced,
+        "total": len(entries),
+    }
+
+
+def main() -> None:
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
+    ap = argparse.ArgumentParser(description="Ajoute un sermon (PDF FR + AR) au catalogue.")
+    ap.add_argument("fr_pdf", help="PDF français")
+    ap.add_argument("ar_pdf", help="PDF arabe")
+    ap.add_argument("--titre-fr", dest="titre_fr", help="Titre FR (défaut : nom du PDF)")
+    ap.add_argument("--titre-ar", dest="titre_ar", help="Titre AR (défaut : nom du PDF)")
+    ap.add_argument("--id", help="Identifiant (défaut : dérivé du titre FR)")
+    args = ap.parse_args()
+
+    print(f"\nConversion en cours…")
+    try:
+        r = add_sermon(args.fr_pdf, args.ar_pdf, args.titre_fr, args.titre_ar, args.id)
+    except FileNotFoundError as e:
+        print(f"Fichier introuvable : {e}")
+        sys.exit(1)
+
+    print(f"\n  ✓  {'Remplacé' if r['replaced'] else 'Ajouté'} : {r['id']}")
+    print(f"     titre FR : {r['titre_fr']}")
+    print(f"     titre AR : {r['titre_ar']}")
+    print(f"     date     : {r['date'] or '— (aucune)'} ({r['source']})")
+    print(f"     catalogue : {r['total']} sermons au total")
     print('\n  Étape suivante :  git add public/ && git commit -m "ajout sermon" && git push\n')
 
 

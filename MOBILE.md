@@ -42,6 +42,18 @@ configurations.all {
 Et vérifiez `android/local.properties` :
 `sdk.dir=C\:\\Users\\barry\\AppData\\Local\\Android\\Sdk`
 
+Régénérez aussi l'**icône + l'écran de démarrage** (le master `assets/icon.png` est
+versionné) et reportez la version de l'app :
+
+```bash
+npx capacitor-assets generate --android --iconBackgroundColor "#06382a" --iconBackgroundColorDark "#06382a"
+# puis, dans android/app/build.gradle : versionCode / versionName (ex. 2 / "1.1.0")
+```
+
+> Pour modifier le logo : remplacez `icon.png` (à la racine de `sermons-app/`),
+> lancez `node scripts/generate-icons.mjs` (icônes web + PWA), puis la commande
+> ci-dessus (icônes Android). Rebuild : `npm run build && npx cap sync android`.
+
 ## Contenu hors-ligne vs distant
 
 Cet APK **embarque** les sermons (lecture hors-ligne, figée au moment du build).

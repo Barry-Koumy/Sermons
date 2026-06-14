@@ -6,6 +6,7 @@ import { useAppStore } from '../store/useAppStore';
 import { useT } from '../i18n/translations';
 import LanguageToggle from '../components/LanguageToggle';
 import { useSermons } from '../hooks/useSermons';
+import { useDownloadSermon } from '../hooks/useDownloadSermon';
 
 export default function HomeScreen() {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ export default function HomeScreen() {
   const favorites = useAppStore((s) => s.favorites);
   const toggleFavorite = useAppStore((s) => s.toggleFavorite);
   const downloads = useAppStore((s) => s.downloads);
-  const downloadSermon = useAppStore((s) => s.downloadSermon);
+  const { download, pendingIds } = useDownloadSermon();
   const { t, dir } = useT();
 
   const { sermons, loading, error } = useSermons();
@@ -47,8 +48,9 @@ export default function HomeScreen() {
       featured={featured}
       isFavorite={favorites.includes(sermon.id)}
       isDownloaded={sermon.id in downloads}
+      isDownloading={pendingIds.has(sermon.id)}
       onToggleFavorite={() => toggleFavorite(sermon.id)}
-      onDownload={() => downloadSermon(sermon, lang)}
+      onDownload={() => download(sermon, lang)}
       onClick={() => navigate(`/reader/${sermon.id}`)}
     />
   );
@@ -58,9 +60,16 @@ export default function HomeScreen() {
       {/* Header */}
       <div className="bg-white dark:bg-gray-800 px-4 md:px-6 lg:px-8 pt-12 lg:pt-6 pb-3 border-b border-gray-100 dark:border-gray-700">
         <div className="w-full max-w-3xl mx-auto">
-          <h1 className="text-xl font-bold text-gray-900 dark:text-white mb-3 text-center">
-            {t('appTitle')}
-          </h1>
+          <div className="flex items-center justify-center gap-2 mb-3">
+            <img
+              src={`${import.meta.env.BASE_URL}icon-192.png`}
+              alt=""
+              className="w-7 h-7 rounded-lg object-cover shrink-0"
+            />
+            <h1 className="text-xl font-bold text-gray-900 dark:text-white text-center">
+              {t('appTitle')}
+            </h1>
+          </div>
 
           {/* Barre de recherche */}
           <div className="relative" dir={dir}>

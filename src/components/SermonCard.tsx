@@ -16,6 +16,7 @@ interface SermonCardProps {
   featured?: boolean;
   isFavorite?: boolean;
   isDownloaded?: boolean;
+  isDownloading?: boolean;
   badges?: SermonBadge[];
   onToggleFavorite?: () => void;
   onDownload?: () => void;
@@ -29,6 +30,7 @@ export default function SermonCard({
   featured = false,
   isFavorite = false,
   isDownloaded = false,
+  isDownloading = false,
   badges = [],
   onToggleFavorite,
   onDownload,
@@ -46,6 +48,7 @@ export default function SermonCard({
 
   const handleDownload = (e: React.MouseEvent) => {
     e.stopPropagation();
+    if (isDownloading) return;
     if (isDownloaded && onRemoveDownload) {
       onRemoveDownload();
     } else if (!isDownloaded) {
@@ -117,10 +120,13 @@ export default function SermonCard({
         {/* Télécharger / Supprimer */}
         <button
           onClick={handleDownload}
-          aria-label={isDownloaded && onRemoveDownload ? 'Supprimer le téléchargement' : isDownloaded ? 'Téléchargé' : 'Télécharger pour lecture hors ligne'}
-          className="p-1 -m-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors shrink-0"
+          disabled={isDownloading}
+          aria-label={isDownloading ? 'Téléchargement en cours' : isDownloaded && onRemoveDownload ? 'Supprimer le téléchargement' : isDownloaded ? 'Téléchargé' : 'Télécharger pour lecture hors ligne'}
+          className="p-1 -m-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors shrink-0 disabled:cursor-default"
         >
-          {isDownloaded && onRemoveDownload ? (
+          {isDownloading ? (
+            <span className="block w-5 h-5 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
+          ) : isDownloaded && onRemoveDownload ? (
             <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
             </svg>
