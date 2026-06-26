@@ -888,6 +888,14 @@
     "publishedAt": "2024-07-25"
   },
   {
+    "id": "la-vie-conjugale",
+    "titre_fr": "LA VIE CONJUGALE",
+    "titre_ar": "اَلْعِشْرَةُ الزَّوْجِيَّةُ",
+    "url_fr": "sermons_html/la-vie-conjugale.fr.html",
+    "url_ar": "sermons_html/la-vie-conjugale.ar.html",
+    "publishedAt": "2026-06-25"
+  },
+  {
     "id": "la-vision-ou-le-reve-regles-et-etiquettes",
     "titre_fr": "LA VISION (OU LE RÊVE), RÈGLES ET ÉTIQUETTES",
     "titre_ar": "الرُّؤْيَا_أَحكَّامٌ_وَآدَابٌ",
