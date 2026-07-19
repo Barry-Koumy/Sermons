@@ -1104,6 +1104,14 @@
     "publishedAt": "2026-05-20"
   },
   {
+    "id": "le-jour-du-vendredi",
+    "titre_fr": "LE JOUR DU VENDREDI",
+    "titre_ar": "يوم الجمعـة",
+    "url_fr": "sermons_html/le-jour-du-vendredi.fr.html",
+    "url_ar": "sermons_html/le-jour-du-vendredi.ar.html",
+    "publishedAt": "2026-07-16"
+  },
+  {
     "id": "le-kawthar",
     "titre_fr": "LE KAWTHAR",
     "titre_ar": "الكوثر",
